@@ -5,390 +5,102 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Vision Benchmark Reviewer</title>
 <style>
-  :root {
-    --bg: #1a1b26;
-    --surface: #24283b;
-    --border: #393b57;
-    --text: #c0caf5;
-    --muted: #565f8e;
-    --accent: #7aa2f7;
-    --green: #9ece6a;
-    --yellow: #e0af68;
-    --red: #f7768e;
-  }
+  :root { --bg:#1a1b26;--surface:#24283b;--border:#393b57;--text:#c0caf5;--muted:#565f8e;--accent:#7aa2f7;--green:#9ece6a;--yellow:#e0af68;--red:#f7768e }
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;background:var(--bg);color:var(--text)}
 
-  * { margin: 0; padding: 0; box-sizing: border-box; }
+  /* toolbar */
+  .toolbar{position:sticky;top:0;z-index:100;background:var(--surface);border-bottom:1px solid var(--border);padding:8px 24px;display:flex;gap:16px;align-items:center;flex-wrap:wrap}
+  .toolbar label{font-size:.85rem;color:var(--muted)}
+  .toolbar input[type="file"]{background:var(--bg);border:1px solid var(--border);border-radius:6px;padding:4px 8px;font-size:.8rem;color:var(--text);cursor:pointer}
 
-  body {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-    background: var(--bg);
-    color: var(--text);
-    line-height: 1.5;
-  }
+  /* thumbnail ribbon */
+  .thumb-ribbon{position:sticky;top:52px;z-index:90;overflow-x:auto;background:#1a1b26;border-bottom:1px solid var(--border);padding:8px 16px;display:flex;gap:8px}
+  .thumb-card{flex-shrink:0;width:72px;height:64px;border-radius:6px;border:2px solid transparent;background-size:cover;background-position:center;cursor:pointer;position:relative;display:flex;align-items:flex-end;justify-content:center}
+  .thumb-card:hover{border-color:#7aa2f7;transform:scale(1.05)}
+  .thumb-card.active{border-color:var(--accent);box-shadow:0 0 8px rgba(122,162,247,.3)}
+  .thumb-label{background:rgba(26,27,38,.9);color:#c0caf5;font-size:.55rem;padding:1px 3px;border-radius:2px;white-space:nowrap;text-align:center;width:100%}
 
-  .toolbar {
-    position: sticky; top: 0; z-index: 100;
-    background: var(--surface);
-    border-bottom: 1px solid var(--border);
-    padding: 12px 24px;
-    display: flex; gap: 16px; align-items: center; flex-wrap: wrap;
-  }
+  /* scenario panel */
+  #scenario-panel{padding:24px 32px;min-height:60vh}
+  .panel-header{display:flex;gap:20px;align-items:flex-start;margin-bottom:16px}
+  .source-image-container img{max-width:380px;max-height:320px;border-radius:8px;display:block;background:#12131c;object-fit:contain}
+  .panel-info{flex:1;min-width:0}
+  .scenario-name{font-size:1.1rem;font-weight:600;color:var(--accent);margin-bottom:4px}
+  .scenario-category{font-size:.8rem;color:var(--muted);text-transform:uppercase;letter-spacing:.5px;margin-bottom:8px}
+  .prompt-box{padding:10px 14px;background:#1a1b26;border-radius:6px;font-size:.82rem;color:#565f8e;border-left:3px solid var(--accent);white-space:pre-wrap;word-break:break-word;margin-bottom:16px}
+  .rated-badge{font-size:.7em;color:var(--muted)}
 
-  .toolbar label { font-size: 0.85rem; color: var(--muted); margin-right: 4px; }
+  /* results */
+  .results-grid{display:grid;gap:8px}
+  .result-row{display:grid;grid-template-columns:minmax(200px,340px) minmax(0,1fr);border:1px solid var(--border);border-radius:8px;overflow:hidden}
+  @media(max-width:900px){.result-row{grid-template-columns:1fr}}
 
-  .toolbar input[type="file"] {
-    background: var(--bg); border: 1px solid var(--border); border-radius: 6px;
-    padding: 6px 10px; font-size: 0.85rem; color: var(--text); cursor: pointer;
-  }
+  .result-labels{background:rgba(122,162,247,.08);padding:10px 14px;font-size:.8rem;display:flex;flex-direction:column;gap:2px}
+  .model-name{font-weight:600;color:#7aa2f7;font-size:.95rem;margin-bottom:2px}
+  .meta-row{display:flex;gap:6px;flex-wrap:wrap}
+  .meta-tag{background:rgba(122,162,247,.1);color:#7aa2f7;padding:1px 6px;border-radius:3px;font-size:.7rem;white-space:nowrap}
 
-  .toolbar input[type="file"]::file-selector-button {
-    background: var(--accent); color: #1a1b26; border: none; padding: 4px 12px;
-    border-radius: 4px; font-weight: 600; cursor: pointer; margin-right: 8px;
-  }
+  .result-response{padding:10px 14px;background:var(--bg);font-size:.85rem;line-height:1.65;overflow-y:auto;max-height:360px;white-space:pre-wrap;word-break:break-word;scrollbar-width:thin}
+  .result-response.error{color:#f7768e;font-style:italic}
 
-  .filters { display: flex; gap: 12px; align-items: center; margin-left: auto; flex-wrap: wrap; }
+  /* metrics row */
+  .metrics-row{display:flex;gap:12px;margin-top:4px;font-size:.7rem;color:var(--muted);flex-wrap:wrap}
 
-  .filter-btn {
-    background: var(--bg); border: 1px solid var(--border); color: var(--text);
-    padding: 4px 12px; border-radius: 4px; font-size: 0.8rem; cursor: pointer;
-    transition: all 0.15s;
-  }
+  /* scoring select */
+  #scenario-panel select[data-card]{margin-top:6px;padding:3px 8px;background:#24283b;color:#c0caf5;border:1px solid var(--border);border-radius:4px;font-size:.75rem;text-align:center;cursor:pointer}
 
-  .filter-btn.active { background: var(--accent); color: #1a1b26; border-color: var(--accent); }
+  /* verdict badge */
+  .verdict-badge{display:inline-block;padding:1px 6px;border-radius:3px;font-size:.7rem;font-weight:600;text-transform:uppercase;margin-left:auto}
+  .lb-winning,.score-pass{color:var(--green)}
+  .lb-good,.score-good{color:var(--accent)}
+  .lb-bad,.score-bad{color:var(--yellow)}
+  .lb-fail,.score-fail{color:var(--red)}
 
-  .stats-bar {
-    padding: 8px 24px; font-size: 0.8rem; color: var(--muted);
-    display: flex; gap: 24px; background: rgba(36,40,59,0.7); border-bottom: 1px solid var(--border);
-  }
+  /* summary table */
+  #summary-section details{margin-top:24px;border-bottom:1px solid var(--border);padding-top:8px}
+  #summary-section summary{cursor:pointer;user-select:none;font-size:.9rem;color:#7aa2f7;margin-bottom:6px;padding:4px 0}
+  .table-wrap{overflow-x:auto;padding:4px 0 16px}
+  table.summary{border-collapse:collapse;width:100%;min-width:640px;font-size:.8rem}
+  th,td{padding:5px 8px;text-align:left;border-bottom:1px solid var(--border);white-space:nowrap;vertical-align:top}
+  th:first-child,td:first-child{position:sticky;left:0;background:#1a1b26;z-index:2;font-weight:600;min-width:140px}
+  th{color:#565f8e;font-weight:500;background:#1a1b26;z-index:1}
 
-  .scenario-card {
-    margin: 16px 24px; padding: 20px;
-    background: var(--surface); border: 1px solid var(--border); border-radius: 10px;
-  }
+  /* buttons */
+  .btn{padding:3px 10px;font-size:.72rem;border:1px solid var(--border);background:#24283b;color:#c0caf5;border-radius:4px;cursor:pointer}
+  .btn:hover{background:#393b57}.btn.danger{color:#f7768e;border-color:#f7768e}
 
-  .scenario-header {
-    display: flex; gap: 20px; align-items: flex-start; margin-bottom: 16px;
-  }
-
-  .source-image-container { position: relative; flex-shrink: 0; }
-
-  .source-image-container img {
-    max-width: 480px; max-height: 400px; border-radius: 8px; display: block;
-    background: #12131c; object-fit: contain;
-  }
-
-  .scenario-info { flex: 1; min-width: 0; }
-
-  .scenario-name { font-size: 1.1rem; font-weight: 600; color: var(--accent); margin-bottom: 4px; }
-  .scenario-category { font-size: 0.8rem; color: var(--muted); text-transform: uppercase; letter-spacing: 0.5px; }
-
-  .prompt-box {
-    margin-top: 12px; padding: 10px 14px; background: var(--bg); border-radius: 6px; font-size: 0.85rem;
-    color: var(--muted); border-left: 3px solid var(--accent); white-space: pre-wrap; word-break: break-word;
-  }
-
-  .results-grid { display: grid; gap: 12px; margin-top: 16px; }
-
-  .result-row {
-    display: grid;
-    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
-    border: 1px solid var(--border); border-radius: 8px; overflow: hidden;
-  }
-
-  @media (max-width: 960px) {
-    .result-row { grid-template-columns: 1fr; }
-    .source-image-container img { max-width: 320px; }
-  }
-
-  .result-labels {
-    background: rgba(122,162,247,0.08); padding: 10px 14px; font-size: 0.8rem; display: flex; flex-direction: column; gap: 2px;
-  }
-
-  .result-labels .model-name { font-weight: 600; color: var(--accent); font-size: 0.95rem; margin-bottom: 4px; }
-  .meta-row { display: flex; gap: 8px; flex-wrap: wrap; }
-  .meta-tag { background: rgba(122,162,247,0.1); color: var(--accent); padding: 1px 7px; border-radius: 3px; font-size: 0.75rem; white-space: nowrap; }
-
-  .result-response {
-    position: relative; display: flex; align-items: stretch;
-  }
-
-  .response-body {
-    flex: 1; padding: 12px 14px; background: var(--bg); font-size: 0.85rem; line-height: 1.65; overflow-y: auto; max-height: 360px; white-space: pre-wrap; word-break: break-word;
-    scrollbar-width: thin; scrollbar-color: var(--border) transparent;
-  }
-
-  .response-body.error { color: var(--red); font-style: italic; }
-
-  .score-panel {
-    width: 140px; padding: 12px 8px; display: flex; flex-direction: column; gap: 6px; justify-content: center; align-items: center; border-left: 1px solid var(--border); background: rgba(36,40,59,0.5);
-    flex-shrink: 0;
-  }
-
-  .score-panel select {
-    width: 100%; padding: 4px; background: var(--surface); color: var(--text); border: 1px solid var(--border); border-radius: 4px; font-size: 0.8rem; text-align: center; cursor: pointer;
-  }
-
-  .score-pass { color: var(--green); }
-  .score-ok   { color: var(--yellow); }
-  .score-fail { color: var(--red); }
-
-  .perf-strip { display: flex; gap: 10px; margin-top: 4px; font-size: 0.75rem; color: var(--muted); justify-content: center; }
-
-  .summary-table-wrap {
-    padding: 20px 24px; overflow-x: auto;
-  }
-
-  summary { cursor: pointer; user-select: none; margin-bottom: 8px; font-size: 1rem; color: var(--accent); }
-
-  table.summary { border-collapse: collapse; width: 100%; min-width: 640px; font-size: 0.85rem; }
-  th, td { padding: 6px 12px; text-align: left; border-bottom: 1px solid var(--border); white-space: nowrap; }
-  th { color: var(--muted); font-weight: 500; position: sticky; top: 0; background: var(--bg); }
-
-  .hidden { display: none !important; }
-
-  .empty-state { text-align: center; padding: 80px 24px; color: var(--muted); font-size: 1.1rem; }
+  /* empty state */
+  #scenario-panel:empty::before{content:'Click a thumbnail above to begin';color:#565f8e;font-size:.9rem;display:block;padding:40px;text-align:center}
 </style>
 </head>
 <body>
 
 <div class="toolbar">
-  <div><label for="scenarios-file">Scenarios JSON:</label></div>
-  <input type="file" id="scenarios-file" accept=".json">
-
-  <div style="margin-left:12px"><label for="results-file">Results JSONL/NDJSON:</label></div>
-  <input type="file" id="results-file" accept=".jsonl,.ndjson,.txt">
-
-  <div class="filters">
-    <span style="font-size:0.8rem;color:var(--muted)">Filter model:</span>
-    <button class="filter-btn active" data-filter="all">All</button>
-  </div>
+  <label for="scenarios-file">Scenarios JSON:</label><input type="file" id="scenarios-file" accept=".json">
+  <label for="results-file">Results JSONL/NDJSON:</label><input type="file" id="results-file" accept=".jsonl,.ndjson,.txt">
+  <span style="color:var(--border)">│</span>
+  <button class="btn" onclick="exportLeaderboardHtml()">Export Leaderboard</button>
+  <input type="file" id="import-input" accept=".json,.bench_backup.json" style="display:none">
+  <button class="btn" onclick="backupScores()">Backup State</button>
+  <button class="btn" onclick="document.getElementById('import-input').click()">Restore State</button>
+  <span id="storage-info"></span>
+  <button class="btn danger" onclick="resetAll()">Reset All</button>
 </div>
 
-<div class="stats-bar hidden" id="stats"></div>
+<div class="thumb-ribbon hidden" id="thumb-ribbon"></div>
 
-<details id="summary-section" class="hidden">
-  <summary style="padding:10px 24px;">Summary Table (click to expand)</summary>
-  <div class="summary-table-wrap"><table class="summary" id="summary-tbl"></table></div>
-</details>
+<main id="scenario-panel">
+  <p style="text-align:center;padding:60px;color:#565f8e;font-size:.9rem;border-bottom:1px dashed var(--border)">Load a scenarios file and results file to begin reviewing.</p>
+</main>
 
-<div id="scenarios-container"></div>
-<div class="empty-state hidden" id="empty">Load a scenarios file and results file to begin reviewing.</div>
+<details id="summary-section" class="hidden"><summary style="padding:10px 24px;">Summary Table (click to expand)</summary><div class="table-wrap"><table class="summary" id="summary-tbl"></table></div></details>
 
-<script>
-const SCORING = [null, ['Pass', 'pass'], ['Marginal', 'ok'], ['Fail', 'fail']];
-let scenarioMap = {};   // name -> scenario object
-let resultRows  = [];    // flat array of {scenarioName, ...resultFields}
-let activeFilter = null;
 
-/* ── file loading ─────────────────────────────────────── */
+<script type="application/json" id="data-scenarios">{SCENARIOS_JSON}</script>
+<script type="application/json" id="data-imgmap">{IMG_MAP_JSON}</script>
+<script type="application/json" id="data-results">{RESULTS_JSON}</script>
 
-document.getElementById('scenarios-file').addEventListener('change', e => {
-  const f = e.target.files[0]; if (!f) return;
-  const r = new FileReader();
-  r.onload = ev => {
-    try {
-      const data = JSON.parse(ev.target.result);
-      scenarioMap = {};
-      (data.scenarios || []).forEach(s => { scenarioMap[s.name] = s; });
-      renderAll();
-    } catch (err) { alert('Failed to parse scenarios: ' + err.message); }
-  };
-  r.readAsText(f);
-});
-
-document.getElementById('results-file').addEventListener('change', e => {
-  const f = e.target.files[0]; if (!f) return;
-  const r = new FileReader();
-  r.onload = ev => {
-    resultRows = [];
-    ev.target.result.split('\n').forEach(line => {
-      line = line.trim(); if (!line) return;
-      try { resultRows.push(JSON.parse(line)); } catch {}
-    });
-    renderAll();
-  };
-  r.readAsText(f);
-});
-
-/* ── filter buttons ──────────────────────────────────── */
-
-document.querySelector('.filters').addEventListener('click', e => {
-  if (!e.target.classList.contains('filter-btn')) return;
-  document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
-  e.target.classList.add('active');
-  activeFilter = e.target.dataset.filter === 'all' ? null : e.target.dataset.filter;
-  renderAll();
-});
-
-/* ── scoring persistence (per-card, per-backend) ─────── */
-
-const STORAGE_KEY = 'vision_bench_scores';
-function loadScores() { try { return JSON.parse(localStorage.getItem(STORAGE_KEY)) || {}; } catch { return {}; } }
-function saveScore(cardId, scoreKey) { const s = loadScores(); s[cardId] = scoreKey; localStorage.setItem(STORAGE_KEY, JSON.stringify(s)); }
-
-/* ── rendering ───────────────────────────────────────── */
-
-function renderAll() {
-  const container = document.getElementById('scenarios-container');
-  const empty     = document.getElementById('empty');
-  const statsEl   = document.getElementById('stats');
-  const summarySec= document.getElementById('summary-section');
-  const summaryTbl= document.getElementById('summary-tbl');
-
-  if (!Object.keys(scenarioMap).length && !resultRows.length) {
-    container.innerHTML = ''; empty.classList.remove('hidden'); return;
-  }
-  empty.classList.add('hidden'); statsEl.classList.remove('hidden');
-
-  /* build filter dropdown */
-  const models = [...new Set(resultRows.map(r => r.model || '?'))].sort();
-  const filtersDiv = document.querySelector('.filters');
-  if (models.length > 1) {
-    // rebuild filter buttons once
-    let html = '<span style="font-size:0.8rem;color:var(--muted)">Filter model:</span>';
-    html += `<button class="filter-btn ${!activeFilter ? 'active' : ''}" data-filter="all">All (${models.length})</button>`;
-    models.forEach(m => { html += `<button class="filter-btn ${activeFilter === m ? 'active' : ''}" data-filter="${escHtml(m)}">${m}</button>`; });
-    filtersDiv.innerHTML = html;
-    /* re-attach listener */
-    const newFilters = document.querySelector('.filters');
-    newFilters.addEventListener('click', e => { if (!e.target.classList.contains('filter-btn')) return; newFilters.querySelectorAll('.filter-btn').forEach(b=>b.classList.remove('active')); e.target.classList.add('active'); activeFilter = e.target.dataset.filter === 'all' ? null : e.target.dataset.filter; renderAll(); });
-  }
-
-  /* stats */
-  const scenariosWithResults = [...new Set(resultRows.map(r => r.scenario))].length;
-  const totalScenarios = Object.keys(scenarioMap).length;
-  statsEl.innerHTML = `<span>${totalScenarios} scenario${totalScenarios !== 1 ? 's' : ''}</span><span>${resultRows.length} result rows</span><span>${scenariosWithResults}/${totalScenarios} with results</span>`;
-
-  /* group results by scenario */
-  const grouped = {};
-  resultRows.forEach(r => { (grouped[r.scenario] ||= []).push(r); });
-
-  let cardsHtml = '';
-  Object.keys(scenarioMap).forEach(name => {
-    if (activeFilter && !resultRows.some(r => r.model === activeFilter)) return;
-    const sc = scenarioMap[name];
-    const rows = grouped[name] || [];
-
-    /* filter results */
-    let visibleRows = rows;
-    if (activeFilter) visibleRows = rows.filter(r => r.model === activeFilter);
-
-    cardsHtml += renderCard(name, sc, visibleRows, name in grouped);
-  });
-
-  container.innerHTML = cardsHtml;
-  attachScoreListeners();
-
-  /* summary table */
-  buildSummary(grouped, models);
-}
-
-function renderCard(name, sc, rows, hasResults) {
-  const imgPath = sc.image_path || '';
-  let imgSrc = '';
-  if (imgPath) {
-    // We load from file: we can't use <img src="file://..."> easily.
-    // Use a data URL approach — actually the user will open this HTML locally, so relative path works.
-    imgSrc = './' + escHtml(imgPath);  /* adjust if images are in same dir as html */
-  }
-
-  let resultsHtml = '';
-  rows.forEach(r => {
-    const cardId = `${name}__${r.model}`;
-    const scoreKey = (loadScores()[cardId] || null) ?? '0';
-    const displayScore = SCORING[parseInt(scoreKey)] ? parseInt(scoreKey) : 0;
-    const [scoreLabel, scoreClass] = SCORING[displayScore] || ['—', ''];
-
-    let responseText = (r.response || '').trim();
-    if (!responseText && r.backend_args) responseText = '(no response text — check backend args for errors)';
-
-    resultsHtml += `
-      <div class="result-row">
-        <div class="result-labels">
-          <span class="model-name">${escHtml(r.model || '?')}</span>
-          <div class="meta-row">
-            ${r.recipe ? `<span class="meta-tag">${escHtml(r.recipe)}</span>` : ''}
-            ${r.backend ? `<span class="meta-tag">${escHtml(r.backend)}</span>` : ''}
-          </div>
-          <div style="margin-top:4px;font-size:.75rem;color:var(--muted)">
-            ${r.input_tokens != null ? `${escHtml(String(r.input_tokens))}` + ' in' : ''}${r.output_tokens != null ? ` · ${escHtml(String(r.output_tokens))}` + ' out' : ''}
-          </div>
-        </div>
-        <div class="result-response">
-          <div class="response-body${responseText.includes('error') || responseText.toLowerCase().includes('failed') ? ' error' : ''}" title="${escAttr(r.backend_args || '')}">${escHtml(responseText)}</div>
-          <div class="score-panel">
-            ${r.ttft_ms != null || r.tps != null ? `<div class="perf-strip"><span>${r.ttft_ms != null ? Math.round(r.ttft_ms) + 'ms' : ''}</span><span>${r.tps != null ? r.tps.toFixed(1) + ' tok/s' : ''}</span></div>` : ''}
-            <select data-card="${cardId}" class="score-select">
-              ${SCORING.map((s, i) => s ? `<option value="${i}"${parseInt(scoreKey) === i ? ' selected' : ''}>${s[0]}</option>` : '')}
-            </select>
-          </div>
-        </div>
-      </div>`;
-  });
-
-  if (!rows.length && hasResults === false) {
-    resultsHtml = '<p style="padding:12px;color:var(--muted);font-size:.85rem">No results for this scenario.</p>';
-  } else if (!rows.length) {
-    /* no result rows at all */
-  }
-
-  return `
-    <div class="scenario-card" data-scenario="${escHtml(name)}">
-      <div class="scenario-header">
-        ${imgPath ? `<div class="source-image-container"><img src="${imgSrc}" alt="${escAttr(sc.name)}" onerror="this.style.display='none'"></div>` : ''}
-        <div class="scenario-info">
-          <div class="scenario-name">${escHtml(name)}</div>
-          <div class="scenario-category">${escHtml(sc.category || '')}</div>
-          ${sc.messages ? `<div class="prompt-box">${escHtml(JSON.stringify(sc.messages))}</div>` : ''}
-        </div>
-      </div>
-      <div class="results-grid">${resultsHtml}</div>
-    </div>`;
-}
-
-/* ── summary table ───────────────────────────────────── */
-
-function buildSummary(grouped, models) {
-  const tbl = document.getElementById('summary-tbl');
-  if (!Object.keys(grouped).length) { document.getElementById('summary-section').classList.add('hidden'); return; }
-  document.getElementById('summary-section').classList.remove('hidden');
-
-  let html = '<thead><tr>';
-  html += '<th>Scenario</th>';
-  models.forEach(m => html += `<th>${escHtml(m)}</th>`);
-  html += '</tr></thead><tbody>';
-
-  Object.keys(scenarioMap).forEach(name => {
-    const rows = grouped[name] || [];
-    html += `<tr><td style="font-weight:600">${escHtml(name)}</td>`;
-    models.forEach(m => {
-      const r = rows.find(x => x.model === m);
-      if (r) {
-        let tpsStr = '', ttftStr = '';
-        if (r.tps != null)     tpsStr  += `${parseFloat(r.tps).toFixed(1)} tok/s`;
-        if (r.ttft_ms != null) ttftStr += Math.round(r.ttft_ms) + 'ms';
-        html += `<td>${escHtml(r.response ? r.response.slice(0, 60) + (r.response.length > 60 ? '…' : '') : '(empty)')}${tpsStr || ttftStr ? '<br><span style="color:var(--muted);font-size:.75rem">' + tpsStr + ' · ' + ttftStr + '</span>' : ''}</td>`;
-      } else { html += '<td>—</td>'; }
-    });
-    html += '</tr>';
-  });
-
-  html += '</tbody>';
-  tbl.innerHTML = html;
-}
-
-/* ── event wiring ─────────────────────────────────────── */
-
-function attachScoreListeners() {
-  document.querySelectorAll('.score-select').forEach(sel => {
-    sel.addEventListener('change', () => saveScore(sel.dataset.card, sel.value));
-  });
-}
-
-/* ── helpers ──────────────────────────────────────────── */
-
-function escHtml(s) { const d = document.createElement('div'); d.textContent = s; return d.innerHTML; }
-function escAttr(s) { return (s || '').replace(/"/g, '&quot;').replace(/'/g, '&#39;'); }
-</script>
+  <script src="reviewer.js"></script>
 </body>
 </html>
