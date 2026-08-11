@@ -1,0 +1,436 @@
+{
+  "scenarios": [
+    {
+      "name": "animal_01_snail_jpg",
+      "category": "vision",
+      "image_path": "animal_01_snail.jpg",
+      "messages": [
+        {
+          "role": "user",
+          "content": "describe in detail what you see"
+        }
+      ],
+      "max_tokens": 4096
+    },
+    {
+      "name": "animal_02_fish_jpg",
+      "category": "vision",
+      "image_path": "animal_02_fish.jpg",
+      "messages": [
+        {
+          "role": "user",
+          "content": "describe in detail what you see"
+        }
+      ],
+      "max_tokens": 4096
+    },
+    {
+      "name": "animal_03_mantis_jpg",
+      "category": "vision",
+      "image_path": "animal_03_mantis.jpg",
+      "messages": [
+        {
+          "role": "user",
+          "content": "describe in detail what you see"
+        }
+      ],
+      "max_tokens": 4096
+    },
+    {
+      "name": "animal_04_turtle_jpg",
+      "category": "vision",
+      "image_path": "animal_04_turtle.jpg",
+      "messages": [
+        {
+          "role": "user",
+          "content": "describe in detail what you see"
+        }
+      ],
+      "max_tokens": 4096
+    },
+    {
+      "name": "animal_06_fennec_jpg",
+      "category": "vision",
+      "image_path": "animal_06_fennec.jpg",
+      "messages": [
+        {
+          "role": "user",
+          "content": "describe in detail what you see"
+        }
+      ],
+      "max_tokens": 4096
+    },
+    {
+      "name": "animal_07_cat_jpg",
+      "category": "vision",
+      "image_path": "animal_07_cat.jpg",
+      "messages": [
+        {
+          "role": "user",
+          "content": "describe in detail what you see"
+        }
+      ],
+      "max_tokens": 4096
+    },
+    {
+      "name": "animal_09_dog_jpg",
+      "category": "vision",
+      "image_path": "animal_09_dog.jpg",
+      "messages": [
+        {
+          "role": "user",
+          "content": "describe in detail what you see"
+        }
+      ],
+      "max_tokens": 4096
+    },
+    {
+      "name": "animal_10_cats_jpg",
+      "category": "vision",
+      "image_path": "animal_10_cats.jpg",
+      "messages": [
+        {
+          "role": "user",
+          "content": "describe in detail what you see"
+        }
+      ],
+      "max_tokens": 4096
+    },
+    {
+      "name": "animal_13_dog_jpg",
+      "category": "vision",
+      "image_path": "animal_13_dog.jpg",
+      "messages": [
+        {
+          "role": "user",
+          "content": "describe in detail what you see"
+        }
+      ],
+      "max_tokens": 4096
+    },
+    {
+      "name": "animal_15_dog_jpg",
+      "category": "vision",
+      "image_path": "animal_15_dog.jpg",
+      "messages": [
+        {
+          "role": "user",
+          "content": "describe in detail what you see"
+        }
+      ],
+      "max_tokens": 4096
+    },
+    {
+      "name": "animal_16_redpanda_jpg",
+      "category": "vision",
+      "image_path": "animal_16_redpanda.jpg",
+      "messages": [
+        {
+          "role": "user",
+          "content": "describe in detail what you see"
+        }
+      ],
+      "max_tokens": 4096
+    },
+    {
+      "name": "animal_17_redpanda_jpg",
+      "category": "vision",
+      "image_path": "animal_17_redpanda.jpg",
+      "messages": [
+        {
+          "role": "user",
+          "content": "describe in detail what you see"
+        }
+      ],
+      "max_tokens": 4096
+    },
+    {
+      "name": "animal_18_owl_jpg",
+      "category": "vision",
+      "image_path": "animal_18_owl.jpg",
+      "messages": [
+        {
+          "role": "user",
+          "content": "describe in detail what you see"
+        }
+      ],
+      "max_tokens": 4096
+    },
+    {
+      "name": "animal_22_cougar_jpg",
+      "category": "vision",
+      "image_path": "animal_22_cougar.jpg",
+      "messages": [
+        {
+          "role": "user",
+          "content": "describe in detail what you see"
+        }
+      ],
+      "max_tokens": 4096
+    },
+    {
+      "name": "animal_24_ducks_jpg",
+      "category": "vision",
+      "image_path": "animal_24_ducks.jpg",
+      "messages": [
+        {
+          "role": "user",
+          "content": "describe in detail what you see"
+        }
+      ],
+      "max_tokens": 4096
+    },
+    {
+      "name": "animal_25_duck_jpg",
+      "category": "vision",
+      "image_path": "animal_25_duck.jpg",
+      "messages": [
+        {
+          "role": "user",
+          "content": "describe in detail what you see"
+        }
+      ],
+      "max_tokens": 4096
+    },
+    {
+      "name": "animal_27_iguana_jpg",
+      "category": "vision",
+      "image_path": "animal_27_iguana.jpg",
+      "messages": [
+        {
+          "role": "user",
+          "content": "describe in detail what you see"
+        }
+      ],
+      "max_tokens": 4096
+    },
+    {
+      "name": "animal_30_lizard_jpg",
+      "category": "vision",
+      "image_path": "animal_30_lizard.jpg",
+      "messages": [
+        {
+          "role": "user",
+          "content": "describe in detail what you see"
+        }
+      ],
+      "max_tokens": 4096
+    },
+    {
+      "name": "animal_31_lizard_jpg",
+      "category": "vision",
+      "image_path": "animal_31_lizard.jpg",
+      "messages": [
+        {
+          "role": "user",
+          "content": "describe in detail what you see"
+        }
+      ],
+      "max_tokens": 4096
+    },
+    {
+      "name": "animal_32_lizard_jpg",
+      "category": "vision",
+      "image_path": "animal_32_lizard.jpg",
+      "messages": [
+        {
+          "role": "user",
+          "content": "describe in detail what you see"
+        }
+      ],
+      "max_tokens": 4096
+    },
+    {
+      "name": "nature_02_flower_jpg",
+      "category": "vision",
+      "image_path": "nature_02_flower.jpg",
+      "messages": [
+        {
+          "role": "user",
+          "content": "describe in detail what you see"
+        }
+      ],
+      "max_tokens": 4096
+    },
+    {
+      "name": "nature_04_flower_jpg",
+      "category": "vision",
+      "image_path": "nature_04_flower.jpg",
+      "messages": [
+        {
+          "role": "user",
+          "content": "describe in detail what you see"
+        }
+      ],
+      "max_tokens": 4096
+    },
+    {
+      "name": "nature_05_flower_jpg",
+      "category": "vision",
+      "image_path": "nature_05_flower.jpg",
+      "messages": [
+        {
+          "role": "user",
+          "content": "describe in detail what you see"
+        }
+      ],
+      "max_tokens": 4096
+    },
+    {
+      "name": "nature_06_nebula_jpg",
+      "category": "vision",
+      "image_path": "nature_06_nebula.jpg",
+      "messages": [
+        {
+          "role": "user",
+          "content": "describe in detail what you see"
+        }
+      ],
+      "max_tokens": 4096
+    },
+    {
+      "name": "nature_07_nebula_jpg",
+      "category": "vision",
+      "image_path": "nature_07_nebula.jpg",
+      "messages": [
+        {
+          "role": "user",
+          "content": "describe in detail what you see"
+        }
+      ],
+      "max_tokens": 4096
+    },
+    {
+      "name": "nature_08_nebula_jpg",
+      "category": "vision",
+      "image_path": "nature_08_nebula.jpg",
+      "messages": [
+        {
+          "role": "user",
+          "content": "describe in detail what you see"
+        }
+      ],
+      "max_tokens": 4096
+    },
+    {
+      "name": "thing_00_radiotelescope_jpg",
+      "category": "vision",
+      "image_path": "thing_00_radiotelescope.jpg",
+      "messages": [
+        {
+          "role": "user",
+          "content": "describe in detail what you see"
+        }
+      ],
+      "max_tokens": 4096
+    },
+    {
+      "name": "thing_01_car_jpg",
+      "category": "vision",
+      "image_path": "thing_01_car.jpg",
+      "messages": [
+        {
+          "role": "user",
+          "content": "describe in detail what you see"
+        }
+      ],
+      "max_tokens": 4096
+    },
+    {
+      "name": "thing_02_clock_jpg",
+      "category": "vision",
+      "image_path": "thing_02_clock.jpg",
+      "messages": [
+        {
+          "role": "user",
+          "content": "describe in detail what you see"
+        }
+      ],
+      "max_tokens": 4096
+    },
+    {
+      "name": "thing_03_enigma_jpg",
+      "category": "vision",
+      "image_path": "thing_03_enigma.jpg",
+      "messages": [
+        {
+          "role": "user",
+          "content": "describe in detail what you see"
+        }
+      ],
+      "max_tokens": 4096
+    },
+    {
+      "name": "thing_04_sr71_jpg",
+      "category": "vision",
+      "image_path": "thing_04_sr71.jpg",
+      "messages": [
+        {
+          "role": "user",
+          "content": "describe in detail what you see"
+        }
+      ],
+      "max_tokens": 4096
+    },
+    {
+      "name": "thing_05_ornament_jpg",
+      "category": "vision",
+      "image_path": "thing_05_ornament.jpg",
+      "messages": [
+        {
+          "role": "user",
+          "content": "describe in detail what you see"
+        }
+      ],
+      "max_tokens": 4096
+    },
+    {
+      "name": "thing_06_portrait_jpg",
+      "category": "vision",
+      "image_path": "thing_06_portrait.jpg",
+      "messages": [
+        {
+          "role": "user",
+          "content": "describe in detail what you see"
+        }
+      ],
+      "max_tokens": 4096
+    },
+    {
+      "name": "thing_07_scultpure_jpg",
+      "category": "vision",
+      "image_path": "thing_07_scultpure.jpg",
+      "messages": [
+        {
+          "role": "user",
+          "content": "describe in detail what you see"
+        }
+      ],
+      "max_tokens": 4096
+    },
+    {
+      "name": "thing_08_sculpture_jpg",
+      "category": "vision",
+      "image_path": "thing_08_sculpture.jpg",
+      "messages": [
+        {
+          "role": "user",
+          "content": "describe in detail what you see"
+        }
+      ],
+      "max_tokens": 4096
+    },
+    {
+      "name": "thing_09_trevi_jpg",
+      "category": "vision",
+      "image_path": "thing_09_trevi.jpg",
+      "messages": [
+        {
+          "role": "user",
+          "content": "describe in detail what you see"
+        }
+      ],
+      "max_tokens": 4096
+    }
+  ]
+}
