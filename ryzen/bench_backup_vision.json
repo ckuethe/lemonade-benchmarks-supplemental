@@ -1,0 +1,7042 @@
+{
+  "version": 2,
+  "exported": "2026-08-11T02:33:13.174Z",
+  "source_file": "unknown",
+  "total_models": 27,
+  "models": [
+    "ATH-MaaS_OvisOCR2",
+    "Deepseek-OCR2",
+    "English-Document-OCR",
+    "GLM-OCR",
+    "Gemma-3-4b-it-GGUF",
+    "Gemma-4-12B-it-GGUF",
+    "Gemma-4-E2B-it-GGUF",
+    "Gemma-4-E4B-it-GGUF",
+    "Jan-v2-VL-High",
+    "MiniCPM-o-4.5-Vision-GGUF",
+    "Ministral-3-3B-Instruct-2512-GGUF",
+    "Nanonets-OCR",
+    "NextOCR",
+    "OvisOCR2",
+    "Qwen2.5-Omni-3B-GGUF",
+    "Qwen2.5-VL-3B-Instruct-GGUF",
+    "Qwen3-VL-4B-Instruct-GGUF",
+    "Qwen3-VL-8B-Instruct-GGUF",
+    "Qwen3.5-0.8B-GGUF",
+    "Qwen3.5-2B-GGUF",
+    "Qwen3.5-4B-GGUF",
+    "Qwen3.5-4B-MTP-GGUF",
+    "Qwen3.5-9B-GGUF",
+    "Qwythos-9Bv2",
+    "Unlimited-OCR",
+    "XCurOS-OCR",
+    "olmOCR2"
+  ],
+  "scenarios_count": 36,
+  "detail": {
+    "ATH-MaaS_OvisOCR2": [
+      {
+        "scenario": "animal_01_snail_jpg",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "animal_02_fish_jpg",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "animal_03_mantis_jpg",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "animal_04_turtle_jpg",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "animal_06_fennec_jpg",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "animal_07_cat_jpg",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "animal_09_dog_jpg",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "animal_10_cats_jpg",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "animal_13_dog_jpg",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "animal_15_dog_jpg",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "animal_16_redpanda_jpg",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "animal_17_redpanda_jpg",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "animal_18_owl_jpg",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "animal_22_cougar_jpg",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "animal_24_ducks_jpg",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "animal_25_duck_jpg",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "animal_27_iguana_jpg",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "animal_30_lizard_jpg",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "animal_31_lizard_jpg",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "animal_32_lizard_jpg",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "nature_02_flower_jpg",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "nature_04_flower_jpg",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "nature_05_flower_jpg",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "nature_06_nebula_jpg",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "nature_07_nebula_jpg",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "nature_08_nebula_jpg",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "thing_00_radiotelescope_jpg",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "thing_01_car_jpg",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "thing_02_clock_jpg",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "thing_03_enigma_jpg",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "thing_04_sr71_jpg",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "thing_05_ornament_jpg",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "thing_06_portrait_jpg",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "thing_07_scultpure_jpg",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "thing_08_sculpture_jpg",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "thing_09_trevi_jpg",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      }
+    ],
+    "Deepseek-OCR2": [
+      {
+        "scenario": "animal_01_snail_jpg",
+        "score_key": "-1",
+        "text": "Bad (-1)",
+        "cls": "bad"
+      },
+      {
+        "scenario": "animal_02_fish_jpg",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "animal_03_mantis_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "animal_04_turtle_jpg",
+        "score_key": "-1",
+        "text": "Bad (-1)",
+        "cls": "bad"
+      },
+      {
+        "scenario": "animal_06_fennec_jpg",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "animal_07_cat_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "animal_09_dog_jpg",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "animal_10_cats_jpg",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "animal_13_dog_jpg",
+        "score_key": "-1",
+        "text": "Bad (-1)",
+        "cls": "bad"
+      },
+      {
+        "scenario": "animal_15_dog_jpg",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "animal_16_redpanda_jpg",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "animal_17_redpanda_jpg",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "animal_18_owl_jpg",
+        "score_key": "-1",
+        "text": "Bad (-1)",
+        "cls": "bad"
+      },
+      {
+        "scenario": "animal_22_cougar_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "animal_24_ducks_jpg",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "animal_25_duck_jpg",
+        "score_key": "-1",
+        "text": "Bad (-1)",
+        "cls": "bad"
+      },
+      {
+        "scenario": "animal_27_iguana_jpg",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "animal_30_lizard_jpg",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "animal_31_lizard_jpg",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "animal_32_lizard_jpg",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "nature_02_flower_jpg",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "nature_04_flower_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "nature_05_flower_jpg",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "nature_06_nebula_jpg",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "nature_07_nebula_jpg",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "nature_08_nebula_jpg",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "thing_00_radiotelescope_jpg",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "thing_01_car_jpg",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "thing_02_clock_jpg",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "thing_03_enigma_jpg",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "thing_04_sr71_jpg",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "thing_05_ornament_jpg",
+        "score_key": "-1",
+        "text": "Bad (-1)",
+        "cls": "bad"
+      },
+      {
+        "scenario": "thing_06_portrait_jpg",
+        "score_key": "-1",
+        "text": "Bad (-1)",
+        "cls": "bad"
+      },
+      {
+        "scenario": "thing_07_scultpure_jpg",
+        "score_key": "-1",
+        "text": "Bad (-1)",
+        "cls": "bad"
+      },
+      {
+        "scenario": "thing_08_sculpture_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "thing_09_trevi_jpg",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      }
+    ],
+    "English-Document-OCR": [
+      {
+        "scenario": "animal_01_snail_jpg",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "animal_02_fish_jpg",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "animal_03_mantis_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "animal_04_turtle_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "animal_06_fennec_jpg",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "animal_07_cat_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "animal_09_dog_jpg",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "animal_10_cats_jpg",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "animal_13_dog_jpg",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "animal_15_dog_jpg",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "animal_16_redpanda_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "animal_17_redpanda_jpg",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "animal_18_owl_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "animal_22_cougar_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "animal_24_ducks_jpg",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "animal_25_duck_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "animal_27_iguana_jpg",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "animal_30_lizard_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "animal_31_lizard_jpg",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "animal_32_lizard_jpg",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "nature_02_flower_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "nature_04_flower_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "nature_05_flower_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "nature_06_nebula_jpg",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "nature_07_nebula_jpg",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "nature_08_nebula_jpg",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "thing_00_radiotelescope_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "thing_01_car_jpg",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "thing_02_clock_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "thing_03_enigma_jpg",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "thing_04_sr71_jpg",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "thing_05_ornament_jpg",
+        "score_key": "-1",
+        "text": "Bad (-1)",
+        "cls": "bad"
+      },
+      {
+        "scenario": "thing_06_portrait_jpg",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "thing_07_scultpure_jpg",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "thing_08_sculpture_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "thing_09_trevi_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      }
+    ],
+    "GLM-OCR": [
+      {
+        "scenario": "animal_01_snail_jpg",
+        "score_key": "-1",
+        "text": "Bad (-1)",
+        "cls": "bad"
+      },
+      {
+        "scenario": "animal_02_fish_jpg",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "animal_03_mantis_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "animal_04_turtle_jpg",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "animal_06_fennec_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "animal_07_cat_jpg",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "animal_09_dog_jpg",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "animal_10_cats_jpg",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "animal_13_dog_jpg",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "animal_15_dog_jpg",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "animal_16_redpanda_jpg",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "animal_17_redpanda_jpg",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "animal_18_owl_jpg",
+        "score_key": "-1",
+        "text": "Bad (-1)",
+        "cls": "bad"
+      },
+      {
+        "scenario": "animal_22_cougar_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "animal_24_ducks_jpg",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "animal_25_duck_jpg",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "animal_27_iguana_jpg",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "animal_30_lizard_jpg",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "animal_31_lizard_jpg",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "animal_32_lizard_jpg",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "nature_02_flower_jpg",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "nature_04_flower_jpg",
+        "score_key": "-1",
+        "text": "Bad (-1)",
+        "cls": "bad"
+      },
+      {
+        "scenario": "nature_05_flower_jpg",
+        "score_key": "-1",
+        "text": "Bad (-1)",
+        "cls": "bad"
+      },
+      {
+        "scenario": "nature_06_nebula_jpg",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "nature_07_nebula_jpg",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "nature_08_nebula_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "thing_00_radiotelescope_jpg",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "thing_01_car_jpg",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "thing_02_clock_jpg",
+        "score_key": "-1",
+        "text": "Bad (-1)",
+        "cls": "bad"
+      },
+      {
+        "scenario": "thing_03_enigma_jpg",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "thing_04_sr71_jpg",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "thing_05_ornament_jpg",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "thing_06_portrait_jpg",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "thing_07_scultpure_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "thing_08_sculpture_jpg",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "thing_09_trevi_jpg",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      }
+    ],
+    "Gemma-3-4b-it-GGUF": [
+      {
+        "scenario": "animal_01_snail_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "animal_02_fish_jpg",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "animal_03_mantis_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "animal_04_turtle_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "animal_06_fennec_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "animal_07_cat_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "animal_09_dog_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "animal_10_cats_jpg",
+        "score_key": "-1",
+        "text": "Bad (-1)",
+        "cls": "bad"
+      },
+      {
+        "scenario": "animal_13_dog_jpg",
+        "score_key": "-1",
+        "text": "Bad (-1)",
+        "cls": "bad"
+      },
+      {
+        "scenario": "animal_15_dog_jpg",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "animal_16_redpanda_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "animal_17_redpanda_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "animal_18_owl_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "animal_22_cougar_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "animal_24_ducks_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "animal_25_duck_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "animal_27_iguana_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "animal_30_lizard_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "animal_31_lizard_jpg",
+        "score_key": "-1",
+        "text": "Bad (-1)",
+        "cls": "bad"
+      },
+      {
+        "scenario": "animal_32_lizard_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "nature_02_flower_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "nature_04_flower_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "nature_05_flower_jpg",
+        "score_key": "-1",
+        "text": "Bad (-1)",
+        "cls": "bad"
+      },
+      {
+        "scenario": "nature_06_nebula_jpg",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "nature_07_nebula_jpg",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "nature_08_nebula_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "thing_00_radiotelescope_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "thing_01_car_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "thing_02_clock_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "thing_03_enigma_jpg",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "thing_04_sr71_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "thing_05_ornament_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "thing_06_portrait_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "thing_07_scultpure_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "thing_08_sculpture_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "thing_09_trevi_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      }
+    ],
+    "Gemma-4-12B-it-GGUF": [
+      {
+        "scenario": "animal_01_snail_jpg",
+        "score_key": "-1",
+        "text": "Bad (-1)",
+        "cls": "bad"
+      },
+      {
+        "scenario": "animal_02_fish_jpg",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "animal_03_mantis_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "animal_04_turtle_jpg",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "animal_06_fennec_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "animal_07_cat_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "animal_09_dog_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "animal_10_cats_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "animal_13_dog_jpg",
+        "score_key": "-1",
+        "text": "Bad (-1)",
+        "cls": "bad"
+      },
+      {
+        "scenario": "animal_15_dog_jpg",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "animal_16_redpanda_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "animal_17_redpanda_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "animal_18_owl_jpg",
+        "score_key": "-1",
+        "text": "Bad (-1)",
+        "cls": "bad"
+      },
+      {
+        "scenario": "animal_22_cougar_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "animal_24_ducks_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "animal_25_duck_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "animal_27_iguana_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "animal_30_lizard_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "animal_31_lizard_jpg",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "animal_32_lizard_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "nature_02_flower_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "nature_04_flower_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "nature_05_flower_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "nature_06_nebula_jpg",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "nature_07_nebula_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "nature_08_nebula_jpg",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "thing_00_radiotelescope_jpg",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "thing_01_car_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "thing_02_clock_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "thing_03_enigma_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "thing_04_sr71_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "thing_05_ornament_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "thing_06_portrait_jpg",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "thing_07_scultpure_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "thing_08_sculpture_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "thing_09_trevi_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      }
+    ],
+    "Gemma-4-E2B-it-GGUF": [
+      {
+        "scenario": "animal_01_snail_jpg",
+        "score_key": "-1",
+        "text": "Bad (-1)",
+        "cls": "bad"
+      },
+      {
+        "scenario": "animal_02_fish_jpg",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "animal_03_mantis_jpg",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "animal_04_turtle_jpg",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "animal_06_fennec_jpg",
+        "score_key": "-1",
+        "text": "Bad (-1)",
+        "cls": "bad"
+      },
+      {
+        "scenario": "animal_07_cat_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "animal_09_dog_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "animal_10_cats_jpg",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "animal_13_dog_jpg",
+        "score_key": "-1",
+        "text": "Bad (-1)",
+        "cls": "bad"
+      },
+      {
+        "scenario": "animal_15_dog_jpg",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "animal_16_redpanda_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "animal_17_redpanda_jpg",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "animal_18_owl_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "animal_22_cougar_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "animal_24_ducks_jpg",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "animal_25_duck_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "animal_27_iguana_jpg",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "animal_30_lizard_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "animal_31_lizard_jpg",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "animal_32_lizard_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "nature_02_flower_jpg",
+        "score_key": "-1",
+        "text": "Bad (-1)",
+        "cls": "bad"
+      },
+      {
+        "scenario": "nature_04_flower_jpg",
+        "score_key": "-1",
+        "text": "Bad (-1)",
+        "cls": "bad"
+      },
+      {
+        "scenario": "nature_05_flower_jpg",
+        "score_key": "-1",
+        "text": "Bad (-1)",
+        "cls": "bad"
+      },
+      {
+        "scenario": "nature_06_nebula_jpg",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "nature_07_nebula_jpg",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "nature_08_nebula_jpg",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "thing_00_radiotelescope_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "thing_01_car_jpg",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "thing_02_clock_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "thing_03_enigma_jpg",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "thing_04_sr71_jpg",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "thing_05_ornament_jpg",
+        "score_key": "-1",
+        "text": "Bad (-1)",
+        "cls": "bad"
+      },
+      {
+        "scenario": "thing_06_portrait_jpg",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "thing_07_scultpure_jpg",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "thing_08_sculpture_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "thing_09_trevi_jpg",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      }
+    ],
+    "Gemma-4-E4B-it-GGUF": [
+      {
+        "scenario": "animal_01_snail_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "animal_02_fish_jpg",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "animal_03_mantis_jpg",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "animal_04_turtle_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "animal_06_fennec_jpg",
+        "score_key": "-1",
+        "text": "Bad (-1)",
+        "cls": "bad"
+      },
+      {
+        "scenario": "animal_07_cat_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "animal_09_dog_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "animal_10_cats_jpg",
+        "score_key": "-1",
+        "text": "Bad (-1)",
+        "cls": "bad"
+      },
+      {
+        "scenario": "animal_13_dog_jpg",
+        "score_key": "-1",
+        "text": "Bad (-1)",
+        "cls": "bad"
+      },
+      {
+        "scenario": "animal_15_dog_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "animal_16_redpanda_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "animal_17_redpanda_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "animal_18_owl_jpg",
+        "score_key": "-1",
+        "text": "Bad (-1)",
+        "cls": "bad"
+      },
+      {
+        "scenario": "animal_22_cougar_jpg",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "animal_24_ducks_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "animal_25_duck_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "animal_27_iguana_jpg",
+        "score_key": "-1",
+        "text": "Bad (-1)",
+        "cls": "bad"
+      },
+      {
+        "scenario": "animal_30_lizard_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "animal_31_lizard_jpg",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "animal_32_lizard_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "nature_02_flower_jpg",
+        "score_key": "-1",
+        "text": "Bad (-1)",
+        "cls": "bad"
+      },
+      {
+        "scenario": "nature_04_flower_jpg",
+        "score_key": "-1",
+        "text": "Bad (-1)",
+        "cls": "bad"
+      },
+      {
+        "scenario": "nature_05_flower_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "nature_06_nebula_jpg",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "nature_07_nebula_jpg",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "nature_08_nebula_jpg",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "thing_00_radiotelescope_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "thing_01_car_jpg",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "thing_02_clock_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "thing_03_enigma_jpg",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "thing_04_sr71_jpg",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "thing_05_ornament_jpg",
+        "score_key": "-1",
+        "text": "Bad (-1)",
+        "cls": "bad"
+      },
+      {
+        "scenario": "thing_06_portrait_jpg",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "thing_07_scultpure_jpg",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "thing_08_sculpture_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "thing_09_trevi_jpg",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      }
+    ],
+    "Jan-v2-VL-High": [
+      {
+        "scenario": "animal_01_snail_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "animal_02_fish_jpg",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "animal_03_mantis_jpg",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "animal_04_turtle_jpg",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "animal_06_fennec_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "animal_07_cat_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "animal_09_dog_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "animal_10_cats_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "animal_13_dog_jpg",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "animal_15_dog_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "animal_16_redpanda_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "animal_17_redpanda_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "animal_18_owl_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "animal_22_cougar_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "animal_24_ducks_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "animal_25_duck_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "animal_27_iguana_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "animal_30_lizard_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "animal_31_lizard_jpg",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "animal_32_lizard_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "nature_02_flower_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "nature_04_flower_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "nature_05_flower_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "nature_06_nebula_jpg",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "nature_07_nebula_jpg",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "nature_08_nebula_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "thing_00_radiotelescope_jpg",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "thing_01_car_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "thing_02_clock_jpg",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "thing_03_enigma_jpg",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "thing_04_sr71_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "thing_05_ornament_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "thing_06_portrait_jpg",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "thing_07_scultpure_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "thing_08_sculpture_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "thing_09_trevi_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      }
+    ],
+    "MiniCPM-o-4.5-Vision-GGUF": [
+      {
+        "scenario": "animal_01_snail_jpg",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "animal_02_fish_jpg",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "animal_03_mantis_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "animal_04_turtle_jpg",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "animal_06_fennec_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "animal_07_cat_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "animal_09_dog_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "animal_10_cats_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "animal_13_dog_jpg",
+        "score_key": "-1",
+        "text": "Bad (-1)",
+        "cls": "bad"
+      },
+      {
+        "scenario": "animal_15_dog_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "animal_16_redpanda_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "animal_17_redpanda_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "animal_18_owl_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "animal_22_cougar_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "animal_24_ducks_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "animal_25_duck_jpg",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "animal_27_iguana_jpg",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "animal_30_lizard_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "animal_31_lizard_jpg",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "animal_32_lizard_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "nature_02_flower_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "nature_04_flower_jpg",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "nature_05_flower_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "nature_06_nebula_jpg",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "nature_07_nebula_jpg",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "nature_08_nebula_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "thing_00_radiotelescope_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "thing_01_car_jpg",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "thing_02_clock_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "thing_03_enigma_jpg",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "thing_04_sr71_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "thing_05_ornament_jpg",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "thing_06_portrait_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "thing_07_scultpure_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "thing_08_sculpture_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "thing_09_trevi_jpg",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      }
+    ],
+    "Ministral-3-3B-Instruct-2512-GGUF": [
+      {
+        "scenario": "animal_01_snail_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "animal_02_fish_jpg",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "animal_03_mantis_jpg",
+        "score_key": "-1",
+        "text": "Bad (-1)",
+        "cls": "bad"
+      },
+      {
+        "scenario": "animal_04_turtle_jpg",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "animal_06_fennec_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "animal_07_cat_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "animal_09_dog_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "animal_10_cats_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "animal_13_dog_jpg",
+        "score_key": "-1",
+        "text": "Bad (-1)",
+        "cls": "bad"
+      },
+      {
+        "scenario": "animal_15_dog_jpg",
+        "score_key": "-1",
+        "text": "Bad (-1)",
+        "cls": "bad"
+      },
+      {
+        "scenario": "animal_16_redpanda_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "animal_17_redpanda_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "animal_18_owl_jpg",
+        "score_key": "-1",
+        "text": "Bad (-1)",
+        "cls": "bad"
+      },
+      {
+        "scenario": "animal_22_cougar_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "animal_24_ducks_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "animal_25_duck_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "animal_27_iguana_jpg",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "animal_30_lizard_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "animal_31_lizard_jpg",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "animal_32_lizard_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "nature_02_flower_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "nature_04_flower_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "nature_05_flower_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "nature_06_nebula_jpg",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "nature_07_nebula_jpg",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "nature_08_nebula_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "thing_00_radiotelescope_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "thing_01_car_jpg",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "thing_02_clock_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "thing_03_enigma_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "thing_04_sr71_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "thing_05_ornament_jpg",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "thing_06_portrait_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "thing_07_scultpure_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "thing_08_sculpture_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "thing_09_trevi_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      }
+    ],
+    "Nanonets-OCR": [
+      {
+        "scenario": "animal_01_snail_jpg",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "animal_02_fish_jpg",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "animal_03_mantis_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "animal_04_turtle_jpg",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "animal_06_fennec_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "animal_07_cat_jpg",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "animal_09_dog_jpg",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "animal_10_cats_jpg",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "animal_13_dog_jpg",
+        "score_key": "-1",
+        "text": "Bad (-1)",
+        "cls": "bad"
+      },
+      {
+        "scenario": "animal_15_dog_jpg",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "animal_16_redpanda_jpg",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "animal_17_redpanda_jpg",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "animal_18_owl_jpg",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "animal_22_cougar_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "animal_24_ducks_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "animal_25_duck_jpg",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "animal_27_iguana_jpg",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "animal_30_lizard_jpg",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "animal_31_lizard_jpg",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "animal_32_lizard_jpg",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "nature_02_flower_jpg",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "nature_04_flower_jpg",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "nature_05_flower_jpg",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "nature_06_nebula_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "nature_07_nebula_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "nature_08_nebula_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "thing_00_radiotelescope_jpg",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "thing_01_car_jpg",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "thing_02_clock_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "thing_03_enigma_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "thing_04_sr71_jpg",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "thing_05_ornament_jpg",
+        "score_key": "-1",
+        "text": "Bad (-1)",
+        "cls": "bad"
+      },
+      {
+        "scenario": "thing_06_portrait_jpg",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "thing_07_scultpure_jpg",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "thing_08_sculpture_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "thing_09_trevi_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      }
+    ],
+    "NextOCR": [
+      {
+        "scenario": "animal_01_snail_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "animal_02_fish_jpg",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "animal_03_mantis_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "animal_04_turtle_jpg",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "animal_06_fennec_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "animal_07_cat_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "animal_09_dog_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "animal_10_cats_jpg",
+        "score_key": "-1",
+        "text": "Bad (-1)",
+        "cls": "bad"
+      },
+      {
+        "scenario": "animal_13_dog_jpg",
+        "score_key": "-1",
+        "text": "Bad (-1)",
+        "cls": "bad"
+      },
+      {
+        "scenario": "animal_15_dog_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "animal_16_redpanda_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "animal_17_redpanda_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "animal_18_owl_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "animal_22_cougar_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "animal_24_ducks_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "animal_25_duck_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "animal_27_iguana_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "animal_30_lizard_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "animal_31_lizard_jpg",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "animal_32_lizard_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "nature_02_flower_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "nature_04_flower_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "nature_05_flower_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "nature_06_nebula_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "nature_07_nebula_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "nature_08_nebula_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "thing_00_radiotelescope_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "thing_01_car_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "thing_02_clock_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "thing_03_enigma_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "thing_04_sr71_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "thing_05_ornament_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "thing_06_portrait_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "thing_07_scultpure_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "thing_08_sculpture_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "thing_09_trevi_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      }
+    ],
+    "OvisOCR2": [
+      {
+        "scenario": "animal_01_snail_jpg",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "animal_02_fish_jpg",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "animal_03_mantis_jpg",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "animal_04_turtle_jpg",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "animal_06_fennec_jpg",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "animal_07_cat_jpg",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "animal_09_dog_jpg",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "animal_10_cats_jpg",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "animal_13_dog_jpg",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "animal_15_dog_jpg",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "animal_16_redpanda_jpg",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "animal_17_redpanda_jpg",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "animal_18_owl_jpg",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "animal_22_cougar_jpg",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "animal_24_ducks_jpg",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "animal_25_duck_jpg",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "animal_27_iguana_jpg",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "animal_30_lizard_jpg",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "animal_31_lizard_jpg",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "animal_32_lizard_jpg",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "nature_02_flower_jpg",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "nature_04_flower_jpg",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "nature_05_flower_jpg",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "nature_06_nebula_jpg",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "nature_07_nebula_jpg",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "nature_08_nebula_jpg",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "thing_00_radiotelescope_jpg",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "thing_01_car_jpg",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "thing_02_clock_jpg",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "thing_03_enigma_jpg",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "thing_04_sr71_jpg",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "thing_05_ornament_jpg",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "thing_06_portrait_jpg",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "thing_07_scultpure_jpg",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "thing_08_sculpture_jpg",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "thing_09_trevi_jpg",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      }
+    ],
+    "Qwen2.5-Omni-3B-GGUF": [
+      {
+        "scenario": "animal_01_snail_jpg",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "animal_02_fish_jpg",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "animal_03_mantis_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "animal_04_turtle_jpg",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "animal_06_fennec_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "animal_07_cat_jpg",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "animal_09_dog_jpg",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "animal_10_cats_jpg",
+        "score_key": "-1",
+        "text": "Bad (-1)",
+        "cls": "bad"
+      },
+      {
+        "scenario": "animal_13_dog_jpg",
+        "score_key": "-1",
+        "text": "Bad (-1)",
+        "cls": "bad"
+      },
+      {
+        "scenario": "animal_15_dog_jpg",
+        "score_key": "-1",
+        "text": "Bad (-1)",
+        "cls": "bad"
+      },
+      {
+        "scenario": "animal_16_redpanda_jpg",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "animal_17_redpanda_jpg",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "animal_18_owl_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "animal_22_cougar_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "animal_24_ducks_jpg",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "animal_25_duck_jpg",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "animal_27_iguana_jpg",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "animal_30_lizard_jpg",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "animal_31_lizard_jpg",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "animal_32_lizard_jpg",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "nature_02_flower_jpg",
+        "score_key": "-1",
+        "text": "Bad (-1)",
+        "cls": "bad"
+      },
+      {
+        "scenario": "nature_04_flower_jpg",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "nature_05_flower_jpg",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "nature_06_nebula_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "nature_07_nebula_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "nature_08_nebula_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "thing_00_radiotelescope_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "thing_01_car_jpg",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "thing_02_clock_jpg",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "thing_03_enigma_jpg",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "thing_04_sr71_jpg",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "thing_05_ornament_jpg",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "thing_06_portrait_jpg",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "thing_07_scultpure_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "thing_08_sculpture_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "thing_09_trevi_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      }
+    ],
+    "Qwen2.5-VL-3B-Instruct-GGUF": [
+      {
+        "scenario": "animal_01_snail_jpg",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "animal_02_fish_jpg",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "animal_03_mantis_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "animal_04_turtle_jpg",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "animal_06_fennec_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "animal_07_cat_jpg",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "animal_09_dog_jpg",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "animal_10_cats_jpg",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "animal_13_dog_jpg",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "animal_15_dog_jpg",
+        "score_key": "-1",
+        "text": "Bad (-1)",
+        "cls": "bad"
+      },
+      {
+        "scenario": "animal_16_redpanda_jpg",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "animal_17_redpanda_jpg",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "animal_18_owl_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "animal_22_cougar_jpg",
+        "score_key": "-1",
+        "text": "Bad (-1)",
+        "cls": "bad"
+      },
+      {
+        "scenario": "animal_24_ducks_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "animal_25_duck_jpg",
+        "score_key": "-1",
+        "text": "Bad (-1)",
+        "cls": "bad"
+      },
+      {
+        "scenario": "animal_27_iguana_jpg",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "animal_30_lizard_jpg",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "animal_31_lizard_jpg",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "animal_32_lizard_jpg",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "nature_02_flower_jpg",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "nature_04_flower_jpg",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "nature_05_flower_jpg",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "nature_06_nebula_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "nature_07_nebula_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "nature_08_nebula_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "thing_00_radiotelescope_jpg",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "thing_01_car_jpg",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "thing_02_clock_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "thing_03_enigma_jpg",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "thing_04_sr71_jpg",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "thing_05_ornament_jpg",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "thing_06_portrait_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "thing_07_scultpure_jpg",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "thing_08_sculpture_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "thing_09_trevi_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      }
+    ],
+    "Qwen3-VL-4B-Instruct-GGUF": [
+      {
+        "scenario": "animal_01_snail_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "animal_02_fish_jpg",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "animal_03_mantis_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "animal_04_turtle_jpg",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "animal_06_fennec_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "animal_07_cat_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "animal_09_dog_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "animal_10_cats_jpg",
+        "score_key": "-1",
+        "text": "Bad (-1)",
+        "cls": "bad"
+      },
+      {
+        "scenario": "animal_13_dog_jpg",
+        "score_key": "-1",
+        "text": "Bad (-1)",
+        "cls": "bad"
+      },
+      {
+        "scenario": "animal_15_dog_jpg",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "animal_16_redpanda_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "animal_17_redpanda_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "animal_18_owl_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "animal_22_cougar_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "animal_24_ducks_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "animal_25_duck_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "animal_27_iguana_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "animal_30_lizard_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "animal_31_lizard_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "animal_32_lizard_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "nature_02_flower_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "nature_04_flower_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "nature_05_flower_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "nature_06_nebula_jpg",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "nature_07_nebula_jpg",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "nature_08_nebula_jpg",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "thing_00_radiotelescope_jpg",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "thing_01_car_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "thing_02_clock_jpg",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "thing_03_enigma_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "thing_04_sr71_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "thing_05_ornament_jpg",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "thing_06_portrait_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "thing_07_scultpure_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "thing_08_sculpture_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "thing_09_trevi_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      }
+    ],
+    "Qwen3-VL-8B-Instruct-GGUF": [
+      {
+        "scenario": "animal_01_snail_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "animal_02_fish_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "animal_03_mantis_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "animal_04_turtle_jpg",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "animal_06_fennec_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "animal_07_cat_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "animal_09_dog_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "animal_10_cats_jpg",
+        "score_key": "-1",
+        "text": "Bad (-1)",
+        "cls": "bad"
+      },
+      {
+        "scenario": "animal_13_dog_jpg",
+        "score_key": "-1",
+        "text": "Bad (-1)",
+        "cls": "bad"
+      },
+      {
+        "scenario": "animal_15_dog_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "animal_16_redpanda_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "animal_17_redpanda_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "animal_18_owl_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "animal_22_cougar_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "animal_24_ducks_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "animal_25_duck_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "animal_27_iguana_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "animal_30_lizard_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "animal_31_lizard_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "animal_32_lizard_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "nature_02_flower_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "nature_04_flower_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "nature_05_flower_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "nature_06_nebula_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "nature_07_nebula_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "nature_08_nebula_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "thing_00_radiotelescope_jpg",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "thing_01_car_jpg",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "thing_02_clock_jpg",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "thing_03_enigma_jpg",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "thing_04_sr71_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "thing_05_ornament_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "thing_06_portrait_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "thing_07_scultpure_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "thing_08_sculpture_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "thing_09_trevi_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      }
+    ],
+    "Qwen3.5-0.8B-GGUF": [
+      {
+        "scenario": "animal_01_snail_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "animal_02_fish_jpg",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "animal_03_mantis_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "animal_04_turtle_jpg",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "animal_06_fennec_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "animal_07_cat_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "animal_09_dog_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "animal_10_cats_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "animal_13_dog_jpg",
+        "score_key": "-1",
+        "text": "Bad (-1)",
+        "cls": "bad"
+      },
+      {
+        "scenario": "animal_15_dog_jpg",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "animal_16_redpanda_jpg",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "animal_17_redpanda_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "animal_18_owl_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "animal_22_cougar_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "animal_24_ducks_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "animal_25_duck_jpg",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "animal_27_iguana_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "animal_30_lizard_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "animal_31_lizard_jpg",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "animal_32_lizard_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "nature_02_flower_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "nature_04_flower_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "nature_05_flower_jpg",
+        "score_key": "-1",
+        "text": "Bad (-1)",
+        "cls": "bad"
+      },
+      {
+        "scenario": "nature_06_nebula_jpg",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "nature_07_nebula_jpg",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "nature_08_nebula_jpg",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "thing_00_radiotelescope_jpg",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "thing_01_car_jpg",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "thing_02_clock_jpg",
+        "score_key": "-1",
+        "text": "Bad (-1)",
+        "cls": "bad"
+      },
+      {
+        "scenario": "thing_03_enigma_jpg",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "thing_04_sr71_jpg",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "thing_05_ornament_jpg",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "thing_06_portrait_jpg",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "thing_07_scultpure_jpg",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "thing_08_sculpture_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "thing_09_trevi_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      }
+    ],
+    "Qwen3.5-2B-GGUF": [
+      {
+        "scenario": "animal_01_snail_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "animal_02_fish_jpg",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "animal_03_mantis_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "animal_04_turtle_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "animal_06_fennec_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "animal_07_cat_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "animal_09_dog_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "animal_10_cats_jpg",
+        "score_key": "-1",
+        "text": "Bad (-1)",
+        "cls": "bad"
+      },
+      {
+        "scenario": "animal_13_dog_jpg",
+        "score_key": "-1",
+        "text": "Bad (-1)",
+        "cls": "bad"
+      },
+      {
+        "scenario": "animal_15_dog_jpg",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "animal_16_redpanda_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "animal_17_redpanda_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "animal_18_owl_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "animal_22_cougar_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "animal_24_ducks_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "animal_25_duck_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "animal_27_iguana_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "animal_30_lizard_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "animal_31_lizard_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "animal_32_lizard_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "nature_02_flower_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "nature_04_flower_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "nature_05_flower_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "nature_06_nebula_jpg",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "nature_07_nebula_jpg",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "nature_08_nebula_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "thing_00_radiotelescope_jpg",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "thing_01_car_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "thing_02_clock_jpg",
+        "score_key": "-1",
+        "text": "Bad (-1)",
+        "cls": "bad"
+      },
+      {
+        "scenario": "thing_03_enigma_jpg",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "thing_04_sr71_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "thing_05_ornament_jpg",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "thing_06_portrait_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "thing_07_scultpure_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "thing_08_sculpture_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "thing_09_trevi_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      }
+    ],
+    "Qwen3.5-4B-GGUF": [
+      {
+        "scenario": "animal_01_snail_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "animal_02_fish_jpg",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "animal_03_mantis_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "animal_04_turtle_jpg",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "animal_06_fennec_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "animal_07_cat_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "animal_09_dog_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "animal_10_cats_jpg",
+        "score_key": "-1",
+        "text": "Bad (-1)",
+        "cls": "bad"
+      },
+      {
+        "scenario": "animal_13_dog_jpg",
+        "score_key": "-1",
+        "text": "Bad (-1)",
+        "cls": "bad"
+      },
+      {
+        "scenario": "animal_15_dog_jpg",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "animal_16_redpanda_jpg",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "animal_17_redpanda_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "animal_18_owl_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "animal_22_cougar_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "animal_24_ducks_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "animal_25_duck_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "animal_27_iguana_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "animal_30_lizard_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "animal_31_lizard_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "animal_32_lizard_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "nature_02_flower_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "nature_04_flower_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "nature_05_flower_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "nature_06_nebula_jpg",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "nature_07_nebula_jpg",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "nature_08_nebula_jpg",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "thing_00_radiotelescope_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "thing_01_car_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "thing_02_clock_jpg",
+        "score_key": "-1",
+        "text": "Bad (-1)",
+        "cls": "bad"
+      },
+      {
+        "scenario": "thing_03_enigma_jpg",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "thing_04_sr71_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "thing_05_ornament_jpg",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "thing_06_portrait_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "thing_07_scultpure_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "thing_08_sculpture_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "thing_09_trevi_jpg",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      }
+    ],
+    "Qwen3.5-4B-MTP-GGUF": [
+      {
+        "scenario": "animal_01_snail_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "animal_02_fish_jpg",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "animal_03_mantis_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "animal_04_turtle_jpg",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "animal_06_fennec_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "animal_07_cat_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "animal_09_dog_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "animal_10_cats_jpg",
+        "score_key": "-1",
+        "text": "Bad (-1)",
+        "cls": "bad"
+      },
+      {
+        "scenario": "animal_13_dog_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "animal_15_dog_jpg",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "animal_16_redpanda_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "animal_17_redpanda_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "animal_18_owl_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "animal_22_cougar_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "animal_24_ducks_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "animal_25_duck_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "animal_27_iguana_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "animal_30_lizard_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "animal_31_lizard_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "animal_32_lizard_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "nature_02_flower_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "nature_04_flower_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "nature_05_flower_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "nature_06_nebula_jpg",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "nature_07_nebula_jpg",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "nature_08_nebula_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "thing_00_radiotelescope_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "thing_01_car_jpg",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "thing_02_clock_jpg",
+        "score_key": "-1",
+        "text": "Bad (-1)",
+        "cls": "bad"
+      },
+      {
+        "scenario": "thing_03_enigma_jpg",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "thing_04_sr71_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "thing_05_ornament_jpg",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "thing_06_portrait_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "thing_07_scultpure_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "thing_08_sculpture_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "thing_09_trevi_jpg",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      }
+    ],
+    "Qwen3.5-9B-GGUF": [
+      {
+        "scenario": "animal_01_snail_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "animal_02_fish_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "animal_03_mantis_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "animal_04_turtle_jpg",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "animal_06_fennec_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "animal_07_cat_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "animal_09_dog_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "animal_10_cats_jpg",
+        "score_key": "-1",
+        "text": "Bad (-1)",
+        "cls": "bad"
+      },
+      {
+        "scenario": "animal_13_dog_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "animal_15_dog_jpg",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "animal_16_redpanda_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "animal_17_redpanda_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "animal_18_owl_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "animal_22_cougar_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "animal_24_ducks_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "animal_25_duck_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "animal_27_iguana_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "animal_30_lizard_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "animal_31_lizard_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "animal_32_lizard_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "nature_02_flower_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "nature_04_flower_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "nature_05_flower_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "nature_06_nebula_jpg",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "nature_07_nebula_jpg",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "nature_08_nebula_jpg",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "thing_00_radiotelescope_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "thing_01_car_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "thing_02_clock_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "thing_03_enigma_jpg",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "thing_04_sr71_jpg",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "thing_05_ornament_jpg",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "thing_06_portrait_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "thing_07_scultpure_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "thing_08_sculpture_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "thing_09_trevi_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      }
+    ],
+    "Qwythos-9Bv2": [
+      {
+        "scenario": "animal_01_snail_jpg",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "animal_02_fish_jpg",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "animal_03_mantis_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "animal_04_turtle_jpg",
+        "score_key": "-1",
+        "text": "Bad (-1)",
+        "cls": "bad"
+      },
+      {
+        "scenario": "animal_06_fennec_jpg",
+        "score_key": "-1",
+        "text": "Bad (-1)",
+        "cls": "bad"
+      },
+      {
+        "scenario": "animal_07_cat_jpg",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "animal_09_dog_jpg",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "animal_10_cats_jpg",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "animal_13_dog_jpg",
+        "score_key": "-1",
+        "text": "Bad (-1)",
+        "cls": "bad"
+      },
+      {
+        "scenario": "animal_15_dog_jpg",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "animal_16_redpanda_jpg",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "animal_17_redpanda_jpg",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "animal_18_owl_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "animal_22_cougar_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "animal_24_ducks_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "animal_25_duck_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "animal_27_iguana_jpg",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "animal_30_lizard_jpg",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "animal_31_lizard_jpg",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "animal_32_lizard_jpg",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "nature_02_flower_jpg",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "nature_04_flower_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "nature_05_flower_jpg",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "nature_06_nebula_jpg",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "nature_07_nebula_jpg",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "nature_08_nebula_jpg",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "thing_00_radiotelescope_jpg",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "thing_01_car_jpg",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "thing_02_clock_jpg",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "thing_03_enigma_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "thing_04_sr71_jpg",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "thing_05_ornament_jpg",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "thing_06_portrait_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "thing_07_scultpure_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "thing_08_sculpture_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "thing_09_trevi_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      }
+    ],
+    "Unlimited-OCR": [
+      {
+        "scenario": "animal_01_snail_jpg",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "animal_02_fish_jpg",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "animal_03_mantis_jpg",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "animal_04_turtle_jpg",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "animal_06_fennec_jpg",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "animal_07_cat_jpg",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "animal_09_dog_jpg",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "animal_10_cats_jpg",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "animal_13_dog_jpg",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "animal_15_dog_jpg",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "animal_16_redpanda_jpg",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "animal_17_redpanda_jpg",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "animal_18_owl_jpg",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "animal_22_cougar_jpg",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "animal_24_ducks_jpg",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "animal_25_duck_jpg",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "animal_27_iguana_jpg",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "animal_30_lizard_jpg",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "animal_31_lizard_jpg",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "animal_32_lizard_jpg",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "nature_02_flower_jpg",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "nature_04_flower_jpg",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "nature_05_flower_jpg",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "nature_06_nebula_jpg",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "nature_07_nebula_jpg",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "nature_08_nebula_jpg",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "thing_00_radiotelescope_jpg",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "thing_01_car_jpg",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "thing_02_clock_jpg",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "thing_03_enigma_jpg",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "thing_04_sr71_jpg",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "thing_05_ornament_jpg",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "thing_06_portrait_jpg",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "thing_07_scultpure_jpg",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "thing_08_sculpture_jpg",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "thing_09_trevi_jpg",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      }
+    ],
+    "XCurOS-OCR": [
+      {
+        "scenario": "animal_01_snail_jpg",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "animal_02_fish_jpg",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "animal_03_mantis_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "animal_04_turtle_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "animal_06_fennec_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "animal_07_cat_jpg",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "animal_09_dog_jpg",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "animal_10_cats_jpg",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "animal_13_dog_jpg",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "animal_15_dog_jpg",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "animal_16_redpanda_jpg",
+        "score_key": "-1",
+        "text": "Bad (-1)",
+        "cls": "bad"
+      },
+      {
+        "scenario": "animal_17_redpanda_jpg",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "animal_18_owl_jpg",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "animal_22_cougar_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "animal_24_ducks_jpg",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "animal_25_duck_jpg",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "animal_27_iguana_jpg",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "animal_30_lizard_jpg",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "animal_31_lizard_jpg",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "animal_32_lizard_jpg",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "nature_02_flower_jpg",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "nature_04_flower_jpg",
+        "score_key": "-1",
+        "text": "Bad (-1)",
+        "cls": "bad"
+      },
+      {
+        "scenario": "nature_05_flower_jpg",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "nature_06_nebula_jpg",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "nature_07_nebula_jpg",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "nature_08_nebula_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "thing_00_radiotelescope_jpg",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "thing_01_car_jpg",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "thing_02_clock_jpg",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "thing_03_enigma_jpg",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "thing_04_sr71_jpg",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "thing_05_ornament_jpg",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "thing_06_portrait_jpg",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "thing_07_scultpure_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "thing_08_sculpture_jpg",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "thing_09_trevi_jpg",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      }
+    ],
+    "olmOCR2": [
+      {
+        "scenario": "animal_01_snail_jpg",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "animal_02_fish_jpg",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "animal_03_mantis_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "animal_04_turtle_jpg",
+        "score_key": "-1",
+        "text": "Bad (-1)",
+        "cls": "bad"
+      },
+      {
+        "scenario": "animal_06_fennec_jpg",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "animal_07_cat_jpg",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "animal_09_dog_jpg",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "animal_10_cats_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "animal_13_dog_jpg",
+        "score_key": "-1",
+        "text": "Bad (-1)",
+        "cls": "bad"
+      },
+      {
+        "scenario": "animal_15_dog_jpg",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "animal_16_redpanda_jpg",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "animal_17_redpanda_jpg",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "animal_18_owl_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "animal_22_cougar_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "animal_24_ducks_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "animal_25_duck_jpg",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "animal_27_iguana_jpg",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "animal_30_lizard_jpg",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "animal_31_lizard_jpg",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "animal_32_lizard_jpg",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "nature_02_flower_jpg",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "nature_04_flower_jpg",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "nature_05_flower_jpg",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "nature_06_nebula_jpg",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "nature_07_nebula_jpg",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "nature_08_nebula_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "thing_00_radiotelescope_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "thing_01_car_jpg",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "thing_02_clock_jpg",
+        "score_key": "-1",
+        "text": "Bad (-1)",
+        "cls": "bad"
+      },
+      {
+        "scenario": "thing_03_enigma_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "thing_04_sr71_jpg",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "thing_05_ornament_jpg",
+        "score_key": "-1",
+        "text": "Bad (-1)",
+        "cls": "bad"
+      },
+      {
+        "scenario": "thing_06_portrait_jpg",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "thing_07_scultpure_jpg",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "thing_08_sculpture_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "thing_09_trevi_jpg",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      }
+    ]
+  },
+  "matrix_table": [
+    {
+      "scenario": "animal_01_snail_jpg",
+      "ATH-MaaS_OvisOCR2": "Fail (-2)",
+      "Deepseek-OCR2": "Bad (-1)",
+      "English-Document-OCR": "Fail (-2)",
+      "GLM-OCR": "Bad (-1)",
+      "Gemma-3-4b-it-GGUF": "Winning (+2)",
+      "Gemma-4-12B-it-GGUF": "Bad (-1)",
+      "Gemma-4-E2B-it-GGUF": "Bad (-1)",
+      "Gemma-4-E4B-it-GGUF": "Winning (+2)",
+      "Jan-v2-VL-High": "Winning (+2)",
+      "MiniCPM-o-4.5-Vision-GGUF": "Good (+1)",
+      "Ministral-3-3B-Instruct-2512-GGUF": "Winning (+2)",
+      "Nanonets-OCR": "Good (+1)",
+      "NextOCR": "Winning (+2)",
+      "OvisOCR2": "Fail (-2)",
+      "Qwen2.5-Omni-3B-GGUF": "Good (+1)",
+      "Qwen2.5-VL-3B-Instruct-GGUF": "Good (+1)",
+      "Qwen3-VL-4B-Instruct-GGUF": "Winning (+2)",
+      "Qwen3-VL-8B-Instruct-GGUF": "Winning (+2)",
+      "Qwen3.5-0.8B-GGUF": "Winning (+2)",
+      "Qwen3.5-2B-GGUF": "Winning (+2)",
+      "Qwen3.5-4B-GGUF": "Winning (+2)",
+      "Qwen3.5-4B-MTP-GGUF": "Winning (+2)",
+      "Qwen3.5-9B-GGUF": "Winning (+2)",
+      "Qwythos-9Bv2": "Good (+1)",
+      "Unlimited-OCR": "Fail (-2)",
+      "XCurOS-OCR": "Good (+1)",
+      "olmOCR2": "Good (+1)",
+      "summary": "19/27 pass, 8 fail (70% of all models)"
+    },
+    {
+      "scenario": "animal_02_fish_jpg",
+      "ATH-MaaS_OvisOCR2": "Fail (-2)",
+      "Deepseek-OCR2": "Good (+1)",
+      "English-Document-OCR": "Good (+1)",
+      "GLM-OCR": "Good (+1)",
+      "Gemma-3-4b-it-GGUF": "Good (+1)",
+      "Gemma-4-12B-it-GGUF": "Good (+1)",
+      "Gemma-4-E2B-it-GGUF": "Good (+1)",
+      "Gemma-4-E4B-it-GGUF": "Good (+1)",
+      "Jan-v2-VL-High": "Good (+1)",
+      "MiniCPM-o-4.5-Vision-GGUF": "Good (+1)",
+      "Ministral-3-3B-Instruct-2512-GGUF": "Good (+1)",
+      "Nanonets-OCR": "Good (+1)",
+      "NextOCR": "Good (+1)",
+      "OvisOCR2": "Fail (-2)",
+      "Qwen2.5-Omni-3B-GGUF": "Good (+1)",
+      "Qwen2.5-VL-3B-Instruct-GGUF": "Good (+1)",
+      "Qwen3-VL-4B-Instruct-GGUF": "Good (+1)",
+      "Qwen3-VL-8B-Instruct-GGUF": "Winning (+2)",
+      "Qwen3.5-0.8B-GGUF": "Good (+1)",
+      "Qwen3.5-2B-GGUF": "Good (+1)",
+      "Qwen3.5-4B-GGUF": "Good (+1)",
+      "Qwen3.5-4B-MTP-GGUF": "Good (+1)",
+      "Qwen3.5-9B-GGUF": "Winning (+2)",
+      "Qwythos-9Bv2": "Good (+1)",
+      "Unlimited-OCR": "Fail (-2)",
+      "XCurOS-OCR": "Good (+1)",
+      "olmOCR2": "Good (+1)",
+      "summary": "24/27 pass, 3 fail (89% of all models)"
+    },
+    {
+      "scenario": "animal_03_mantis_jpg",
+      "ATH-MaaS_OvisOCR2": "Fail (-2)",
+      "Deepseek-OCR2": "Winning (+2)",
+      "English-Document-OCR": "Winning (+2)",
+      "GLM-OCR": "Winning (+2)",
+      "Gemma-3-4b-it-GGUF": "Winning (+2)",
+      "Gemma-4-12B-it-GGUF": "Winning (+2)",
+      "Gemma-4-E2B-it-GGUF": "Fail (-2)",
+      "Gemma-4-E4B-it-GGUF": "Fail (-2)",
+      "Jan-v2-VL-High": "Fail (-2)",
+      "MiniCPM-o-4.5-Vision-GGUF": "Winning (+2)",
+      "Ministral-3-3B-Instruct-2512-GGUF": "Bad (-1)",
+      "Nanonets-OCR": "Winning (+2)",
+      "NextOCR": "Winning (+2)",
+      "OvisOCR2": "Fail (-2)",
+      "Qwen2.5-Omni-3B-GGUF": "Winning (+2)",
+      "Qwen2.5-VL-3B-Instruct-GGUF": "Winning (+2)",
+      "Qwen3-VL-4B-Instruct-GGUF": "Winning (+2)",
+      "Qwen3-VL-8B-Instruct-GGUF": "Winning (+2)",
+      "Qwen3.5-0.8B-GGUF": "Winning (+2)",
+      "Qwen3.5-2B-GGUF": "Winning (+2)",
+      "Qwen3.5-4B-GGUF": "Winning (+2)",
+      "Qwen3.5-4B-MTP-GGUF": "Winning (+2)",
+      "Qwen3.5-9B-GGUF": "Winning (+2)",
+      "Qwythos-9Bv2": "Winning (+2)",
+      "Unlimited-OCR": "Fail (-2)",
+      "XCurOS-OCR": "Winning (+2)",
+      "olmOCR2": "Winning (+2)",
+      "summary": "20/27 pass, 7 fail (74% of all models)"
+    },
+    {
+      "scenario": "animal_04_turtle_jpg",
+      "ATH-MaaS_OvisOCR2": "Fail (-2)",
+      "Deepseek-OCR2": "Bad (-1)",
+      "English-Document-OCR": "Winning (+2)",
+      "GLM-OCR": "Good (+1)",
+      "Gemma-3-4b-it-GGUF": "Winning (+2)",
+      "Gemma-4-12B-it-GGUF": "Good (+1)",
+      "Gemma-4-E2B-it-GGUF": "Good (+1)",
+      "Gemma-4-E4B-it-GGUF": "Winning (+2)",
+      "Jan-v2-VL-High": "Good (+1)",
+      "MiniCPM-o-4.5-Vision-GGUF": "Good (+1)",
+      "Ministral-3-3B-Instruct-2512-GGUF": "Good (+1)",
+      "Nanonets-OCR": "Good (+1)",
+      "NextOCR": "Good (+1)",
+      "OvisOCR2": "Fail (-2)",
+      "Qwen2.5-Omni-3B-GGUF": "Good (+1)",
+      "Qwen2.5-VL-3B-Instruct-GGUF": "Good (+1)",
+      "Qwen3-VL-4B-Instruct-GGUF": "Good (+1)",
+      "Qwen3-VL-8B-Instruct-GGUF": "Good (+1)",
+      "Qwen3.5-0.8B-GGUF": "Good (+1)",
+      "Qwen3.5-2B-GGUF": "Winning (+2)",
+      "Qwen3.5-4B-GGUF": "Good (+1)",
+      "Qwen3.5-4B-MTP-GGUF": "Good (+1)",
+      "Qwen3.5-9B-GGUF": "Good (+1)",
+      "Qwythos-9Bv2": "Bad (-1)",
+      "Unlimited-OCR": "Fail (-2)",
+      "XCurOS-OCR": "Winning (+2)",
+      "olmOCR2": "Bad (-1)",
+      "summary": "21/27 pass, 6 fail (78% of all models)"
+    },
+    {
+      "scenario": "animal_06_fennec_jpg",
+      "ATH-MaaS_OvisOCR2": "Fail (-2)",
+      "Deepseek-OCR2": "Fail (-2)",
+      "English-Document-OCR": "Fail (-2)",
+      "GLM-OCR": "Winning (+2)",
+      "Gemma-3-4b-it-GGUF": "Winning (+2)",
+      "Gemma-4-12B-it-GGUF": "Winning (+2)",
+      "Gemma-4-E2B-it-GGUF": "Bad (-1)",
+      "Gemma-4-E4B-it-GGUF": "Bad (-1)",
+      "Jan-v2-VL-High": "Winning (+2)",
+      "MiniCPM-o-4.5-Vision-GGUF": "Winning (+2)",
+      "Ministral-3-3B-Instruct-2512-GGUF": "Winning (+2)",
+      "Nanonets-OCR": "Winning (+2)",
+      "NextOCR": "Winning (+2)",
+      "OvisOCR2": "Fail (-2)",
+      "Qwen2.5-Omni-3B-GGUF": "Winning (+2)",
+      "Qwen2.5-VL-3B-Instruct-GGUF": "Winning (+2)",
+      "Qwen3-VL-4B-Instruct-GGUF": "Winning (+2)",
+      "Qwen3-VL-8B-Instruct-GGUF": "Winning (+2)",
+      "Qwen3.5-0.8B-GGUF": "Winning (+2)",
+      "Qwen3.5-2B-GGUF": "Winning (+2)",
+      "Qwen3.5-4B-GGUF": "Winning (+2)",
+      "Qwen3.5-4B-MTP-GGUF": "Winning (+2)",
+      "Qwen3.5-9B-GGUF": "Winning (+2)",
+      "Qwythos-9Bv2": "Bad (-1)",
+      "Unlimited-OCR": "Fail (-2)",
+      "XCurOS-OCR": "Winning (+2)",
+      "olmOCR2": "Fail (-2)",
+      "summary": "18/27 pass, 9 fail (67% of all models)"
+    },
+    {
+      "scenario": "animal_07_cat_jpg",
+      "ATH-MaaS_OvisOCR2": "Fail (-2)",
+      "Deepseek-OCR2": "Winning (+2)",
+      "English-Document-OCR": "Winning (+2)",
+      "GLM-OCR": "Good (+1)",
+      "Gemma-3-4b-it-GGUF": "Winning (+2)",
+      "Gemma-4-12B-it-GGUF": "Winning (+2)",
+      "Gemma-4-E2B-it-GGUF": "Winning (+2)",
+      "Gemma-4-E4B-it-GGUF": "Winning (+2)",
+      "Jan-v2-VL-High": "Winning (+2)",
+      "MiniCPM-o-4.5-Vision-GGUF": "Winning (+2)",
+      "Ministral-3-3B-Instruct-2512-GGUF": "Winning (+2)",
+      "Nanonets-OCR": "Good (+1)",
+      "NextOCR": "Winning (+2)",
+      "OvisOCR2": "Fail (-2)",
+      "Qwen2.5-Omni-3B-GGUF": "Good (+1)",
+      "Qwen2.5-VL-3B-Instruct-GGUF": "Good (+1)",
+      "Qwen3-VL-4B-Instruct-GGUF": "Winning (+2)",
+      "Qwen3-VL-8B-Instruct-GGUF": "Winning (+2)",
+      "Qwen3.5-0.8B-GGUF": "Winning (+2)",
+      "Qwen3.5-2B-GGUF": "Winning (+2)",
+      "Qwen3.5-4B-GGUF": "Winning (+2)",
+      "Qwen3.5-4B-MTP-GGUF": "Winning (+2)",
+      "Qwen3.5-9B-GGUF": "Winning (+2)",
+      "Qwythos-9Bv2": "Good (+1)",
+      "Unlimited-OCR": "Fail (-2)",
+      "XCurOS-OCR": "Good (+1)",
+      "olmOCR2": "Good (+1)",
+      "summary": "24/27 pass, 3 fail (89% of all models)"
+    },
+    {
+      "scenario": "animal_09_dog_jpg",
+      "ATH-MaaS_OvisOCR2": "Fail (-2)",
+      "Deepseek-OCR2": "Good (+1)",
+      "English-Document-OCR": "Fail (-2)",
+      "GLM-OCR": "Good (+1)",
+      "Gemma-3-4b-it-GGUF": "Winning (+2)",
+      "Gemma-4-12B-it-GGUF": "Winning (+2)",
+      "Gemma-4-E2B-it-GGUF": "Winning (+2)",
+      "Gemma-4-E4B-it-GGUF": "Winning (+2)",
+      "Jan-v2-VL-High": "Winning (+2)",
+      "MiniCPM-o-4.5-Vision-GGUF": "Winning (+2)",
+      "Ministral-3-3B-Instruct-2512-GGUF": "Winning (+2)",
+      "Nanonets-OCR": "Good (+1)",
+      "NextOCR": "Winning (+2)",
+      "OvisOCR2": "Fail (-2)",
+      "Qwen2.5-Omni-3B-GGUF": "Good (+1)",
+      "Qwen2.5-VL-3B-Instruct-GGUF": "Good (+1)",
+      "Qwen3-VL-4B-Instruct-GGUF": "Winning (+2)",
+      "Qwen3-VL-8B-Instruct-GGUF": "Winning (+2)",
+      "Qwen3.5-0.8B-GGUF": "Winning (+2)",
+      "Qwen3.5-2B-GGUF": "Winning (+2)",
+      "Qwen3.5-4B-GGUF": "Winning (+2)",
+      "Qwen3.5-4B-MTP-GGUF": "Winning (+2)",
+      "Qwen3.5-9B-GGUF": "Winning (+2)",
+      "Qwythos-9Bv2": "Good (+1)",
+      "Unlimited-OCR": "Fail (-2)",
+      "XCurOS-OCR": "Good (+1)",
+      "olmOCR2": "Good (+1)",
+      "summary": "23/27 pass, 4 fail (85% of all models)"
+    },
+    {
+      "scenario": "animal_10_cats_jpg",
+      "ATH-MaaS_OvisOCR2": "Fail (-2)",
+      "Deepseek-OCR2": "Good (+1)",
+      "English-Document-OCR": "Fail (-2)",
+      "GLM-OCR": "Good (+1)",
+      "Gemma-3-4b-it-GGUF": "Bad (-1)",
+      "Gemma-4-12B-it-GGUF": "Winning (+2)",
+      "Gemma-4-E2B-it-GGUF": "Good (+1)",
+      "Gemma-4-E4B-it-GGUF": "Bad (-1)",
+      "Jan-v2-VL-High": "Winning (+2)",
+      "MiniCPM-o-4.5-Vision-GGUF": "Winning (+2)",
+      "Ministral-3-3B-Instruct-2512-GGUF": "Winning (+2)",
+      "Nanonets-OCR": "Good (+1)",
+      "NextOCR": "Bad (-1)",
+      "OvisOCR2": "Fail (-2)",
+      "Qwen2.5-Omni-3B-GGUF": "Bad (-1)",
+      "Qwen2.5-VL-3B-Instruct-GGUF": "Good (+1)",
+      "Qwen3-VL-4B-Instruct-GGUF": "Bad (-1)",
+      "Qwen3-VL-8B-Instruct-GGUF": "Bad (-1)",
+      "Qwen3.5-0.8B-GGUF": "Winning (+2)",
+      "Qwen3.5-2B-GGUF": "Bad (-1)",
+      "Qwen3.5-4B-GGUF": "Bad (-1)",
+      "Qwen3.5-4B-MTP-GGUF": "Bad (-1)",
+      "Qwen3.5-9B-GGUF": "Bad (-1)",
+      "Qwythos-9Bv2": "Good (+1)",
+      "Unlimited-OCR": "Fail (-2)",
+      "XCurOS-OCR": "Good (+1)",
+      "olmOCR2": "Winning (+2)",
+      "summary": "13/27 pass, 14 fail (48% of all models)"
+    },
+    {
+      "scenario": "animal_13_dog_jpg",
+      "ATH-MaaS_OvisOCR2": "Fail (-2)",
+      "Deepseek-OCR2": "Bad (-1)",
+      "English-Document-OCR": "Fail (-2)",
+      "GLM-OCR": "Good (+1)",
+      "Gemma-3-4b-it-GGUF": "Bad (-1)",
+      "Gemma-4-12B-it-GGUF": "Bad (-1)",
+      "Gemma-4-E2B-it-GGUF": "Bad (-1)",
+      "Gemma-4-E4B-it-GGUF": "Bad (-1)",
+      "Jan-v2-VL-High": "Good (+1)",
+      "MiniCPM-o-4.5-Vision-GGUF": "Bad (-1)",
+      "Ministral-3-3B-Instruct-2512-GGUF": "Bad (-1)",
+      "Nanonets-OCR": "Bad (-1)",
+      "NextOCR": "Bad (-1)",
+      "OvisOCR2": "Fail (-2)",
+      "Qwen2.5-Omni-3B-GGUF": "Bad (-1)",
+      "Qwen2.5-VL-3B-Instruct-GGUF": "Good (+1)",
+      "Qwen3-VL-4B-Instruct-GGUF": "Bad (-1)",
+      "Qwen3-VL-8B-Instruct-GGUF": "Bad (-1)",
+      "Qwen3.5-0.8B-GGUF": "Bad (-1)",
+      "Qwen3.5-2B-GGUF": "Bad (-1)",
+      "Qwen3.5-4B-GGUF": "Bad (-1)",
+      "Qwen3.5-4B-MTP-GGUF": "Winning (+2)",
+      "Qwen3.5-9B-GGUF": "Winning (+2)",
+      "Qwythos-9Bv2": "Bad (-1)",
+      "Unlimited-OCR": "Fail (-2)",
+      "XCurOS-OCR": "Good (+1)",
+      "olmOCR2": "Bad (-1)",
+      "summary": "6/27 pass, 21 fail (22% of all models)"
+    },
+    {
+      "scenario": "animal_15_dog_jpg",
+      "ATH-MaaS_OvisOCR2": "Fail (-2)",
+      "Deepseek-OCR2": "Good (+1)",
+      "English-Document-OCR": "Good (+1)",
+      "GLM-OCR": "Good (+1)",
+      "Gemma-3-4b-it-GGUF": "Good (+1)",
+      "Gemma-4-12B-it-GGUF": "Good (+1)",
+      "Gemma-4-E2B-it-GGUF": "Good (+1)",
+      "Gemma-4-E4B-it-GGUF": "Winning (+2)",
+      "Jan-v2-VL-High": "Winning (+2)",
+      "MiniCPM-o-4.5-Vision-GGUF": "Winning (+2)",
+      "Ministral-3-3B-Instruct-2512-GGUF": "Bad (-1)",
+      "Nanonets-OCR": "Good (+1)",
+      "NextOCR": "Winning (+2)",
+      "OvisOCR2": "Fail (-2)",
+      "Qwen2.5-Omni-3B-GGUF": "Bad (-1)",
+      "Qwen2.5-VL-3B-Instruct-GGUF": "Bad (-1)",
+      "Qwen3-VL-4B-Instruct-GGUF": "Good (+1)",
+      "Qwen3-VL-8B-Instruct-GGUF": "Winning (+2)",
+      "Qwen3.5-0.8B-GGUF": "Fail (-2)",
+      "Qwen3.5-2B-GGUF": "Good (+1)",
+      "Qwen3.5-4B-GGUF": "Good (+1)",
+      "Qwen3.5-4B-MTP-GGUF": "Good (+1)",
+      "Qwen3.5-9B-GGUF": "Good (+1)",
+      "Qwythos-9Bv2": "Good (+1)",
+      "Unlimited-OCR": "Fail (-2)",
+      "XCurOS-OCR": "Good (+1)",
+      "olmOCR2": "Good (+1)",
+      "summary": "20/27 pass, 7 fail (74% of all models)"
+    },
+    {
+      "scenario": "animal_16_redpanda_jpg",
+      "ATH-MaaS_OvisOCR2": "Fail (-2)",
+      "Deepseek-OCR2": "Good (+1)",
+      "English-Document-OCR": "Winning (+2)",
+      "GLM-OCR": "Good (+1)",
+      "Gemma-3-4b-it-GGUF": "Winning (+2)",
+      "Gemma-4-12B-it-GGUF": "Winning (+2)",
+      "Gemma-4-E2B-it-GGUF": "Winning (+2)",
+      "Gemma-4-E4B-it-GGUF": "Winning (+2)",
+      "Jan-v2-VL-High": "Winning (+2)",
+      "MiniCPM-o-4.5-Vision-GGUF": "Winning (+2)",
+      "Ministral-3-3B-Instruct-2512-GGUF": "Winning (+2)",
+      "Nanonets-OCR": "Good (+1)",
+      "NextOCR": "Winning (+2)",
+      "OvisOCR2": "Fail (-2)",
+      "Qwen2.5-Omni-3B-GGUF": "Good (+1)",
+      "Qwen2.5-VL-3B-Instruct-GGUF": "Good (+1)",
+      "Qwen3-VL-4B-Instruct-GGUF": "Winning (+2)",
+      "Qwen3-VL-8B-Instruct-GGUF": "Winning (+2)",
+      "Qwen3.5-0.8B-GGUF": "Fail (-2)",
+      "Qwen3.5-2B-GGUF": "Winning (+2)",
+      "Qwen3.5-4B-GGUF": "Good (+1)",
+      "Qwen3.5-4B-MTP-GGUF": "Winning (+2)",
+      "Qwen3.5-9B-GGUF": "Winning (+2)",
+      "Qwythos-9Bv2": "Good (+1)",
+      "Unlimited-OCR": "Fail (-2)",
+      "XCurOS-OCR": "Bad (-1)",
+      "olmOCR2": "Good (+1)",
+      "summary": "22/27 pass, 5 fail (81% of all models)"
+    },
+    {
+      "scenario": "animal_17_redpanda_jpg",
+      "ATH-MaaS_OvisOCR2": "Fail (-2)",
+      "Deepseek-OCR2": "Good (+1)",
+      "English-Document-OCR": "Good (+1)",
+      "GLM-OCR": "Good (+1)",
+      "Gemma-3-4b-it-GGUF": "Winning (+2)",
+      "Gemma-4-12B-it-GGUF": "Winning (+2)",
+      "Gemma-4-E2B-it-GGUF": "Fail (-2)",
+      "Gemma-4-E4B-it-GGUF": "Winning (+2)",
+      "Jan-v2-VL-High": "Winning (+2)",
+      "MiniCPM-o-4.5-Vision-GGUF": "Winning (+2)",
+      "Ministral-3-3B-Instruct-2512-GGUF": "Winning (+2)",
+      "Nanonets-OCR": "Good (+1)",
+      "NextOCR": "Winning (+2)",
+      "OvisOCR2": "Fail (-2)",
+      "Qwen2.5-Omni-3B-GGUF": "Good (+1)",
+      "Qwen2.5-VL-3B-Instruct-GGUF": "Good (+1)",
+      "Qwen3-VL-4B-Instruct-GGUF": "Winning (+2)",
+      "Qwen3-VL-8B-Instruct-GGUF": "Winning (+2)",
+      "Qwen3.5-0.8B-GGUF": "Winning (+2)",
+      "Qwen3.5-2B-GGUF": "Winning (+2)",
+      "Qwen3.5-4B-GGUF": "Winning (+2)",
+      "Qwen3.5-4B-MTP-GGUF": "Winning (+2)",
+      "Qwen3.5-9B-GGUF": "Winning (+2)",
+      "Qwythos-9Bv2": "Good (+1)",
+      "Unlimited-OCR": "Fail (-2)",
+      "XCurOS-OCR": "Good (+1)",
+      "olmOCR2": "Good (+1)",
+      "summary": "23/27 pass, 4 fail (85% of all models)"
+    },
+    {
+      "scenario": "animal_18_owl_jpg",
+      "ATH-MaaS_OvisOCR2": "Fail (-2)",
+      "Deepseek-OCR2": "Bad (-1)",
+      "English-Document-OCR": "Winning (+2)",
+      "GLM-OCR": "Bad (-1)",
+      "Gemma-3-4b-it-GGUF": "Winning (+2)",
+      "Gemma-4-12B-it-GGUF": "Bad (-1)",
+      "Gemma-4-E2B-it-GGUF": "Winning (+2)",
+      "Gemma-4-E4B-it-GGUF": "Bad (-1)",
+      "Jan-v2-VL-High": "Winning (+2)",
+      "MiniCPM-o-4.5-Vision-GGUF": "Winning (+2)",
+      "Ministral-3-3B-Instruct-2512-GGUF": "Bad (-1)",
+      "Nanonets-OCR": "Good (+1)",
+      "NextOCR": "Winning (+2)",
+      "OvisOCR2": "Fail (-2)",
+      "Qwen2.5-Omni-3B-GGUF": "Winning (+2)",
+      "Qwen2.5-VL-3B-Instruct-GGUF": "Winning (+2)",
+      "Qwen3-VL-4B-Instruct-GGUF": "Winning (+2)",
+      "Qwen3-VL-8B-Instruct-GGUF": "Winning (+2)",
+      "Qwen3.5-0.8B-GGUF": "Winning (+2)",
+      "Qwen3.5-2B-GGUF": "Winning (+2)",
+      "Qwen3.5-4B-GGUF": "Winning (+2)",
+      "Qwen3.5-4B-MTP-GGUF": "Winning (+2)",
+      "Qwen3.5-9B-GGUF": "Winning (+2)",
+      "Qwythos-9Bv2": "Winning (+2)",
+      "Unlimited-OCR": "Fail (-2)",
+      "XCurOS-OCR": "Good (+1)",
+      "olmOCR2": "Winning (+2)",
+      "summary": "19/27 pass, 8 fail (70% of all models)"
+    },
+    {
+      "scenario": "animal_22_cougar_jpg",
+      "ATH-MaaS_OvisOCR2": "Fail (-2)",
+      "Deepseek-OCR2": "Winning (+2)",
+      "English-Document-OCR": "Winning (+2)",
+      "GLM-OCR": "Winning (+2)",
+      "Gemma-3-4b-it-GGUF": "Winning (+2)",
+      "Gemma-4-12B-it-GGUF": "Winning (+2)",
+      "Gemma-4-E2B-it-GGUF": "Winning (+2)",
+      "Gemma-4-E4B-it-GGUF": "Fail (-2)",
+      "Jan-v2-VL-High": "Winning (+2)",
+      "MiniCPM-o-4.5-Vision-GGUF": "Winning (+2)",
+      "Ministral-3-3B-Instruct-2512-GGUF": "Winning (+2)",
+      "Nanonets-OCR": "Winning (+2)",
+      "NextOCR": "Winning (+2)",
+      "OvisOCR2": "Fail (-2)",
+      "Qwen2.5-Omni-3B-GGUF": "Winning (+2)",
+      "Qwen2.5-VL-3B-Instruct-GGUF": "Bad (-1)",
+      "Qwen3-VL-4B-Instruct-GGUF": "Winning (+2)",
+      "Qwen3-VL-8B-Instruct-GGUF": "Winning (+2)",
+      "Qwen3.5-0.8B-GGUF": "Winning (+2)",
+      "Qwen3.5-2B-GGUF": "Winning (+2)",
+      "Qwen3.5-4B-GGUF": "Winning (+2)",
+      "Qwen3.5-4B-MTP-GGUF": "Winning (+2)",
+      "Qwen3.5-9B-GGUF": "Winning (+2)",
+      "Qwythos-9Bv2": "Winning (+2)",
+      "Unlimited-OCR": "Fail (-2)",
+      "XCurOS-OCR": "Winning (+2)",
+      "olmOCR2": "Winning (+2)",
+      "summary": "22/27 pass, 5 fail (81% of all models)"
+    },
+    {
+      "scenario": "animal_24_ducks_jpg",
+      "ATH-MaaS_OvisOCR2": "Fail (-2)",
+      "Deepseek-OCR2": "Good (+1)",
+      "English-Document-OCR": "Fail (-2)",
+      "GLM-OCR": "Good (+1)",
+      "Gemma-3-4b-it-GGUF": "Winning (+2)",
+      "Gemma-4-12B-it-GGUF": "Winning (+2)",
+      "Gemma-4-E2B-it-GGUF": "Good (+1)",
+      "Gemma-4-E4B-it-GGUF": "Winning (+2)",
+      "Jan-v2-VL-High": "Winning (+2)",
+      "MiniCPM-o-4.5-Vision-GGUF": "Winning (+2)",
+      "Ministral-3-3B-Instruct-2512-GGUF": "Winning (+2)",
+      "Nanonets-OCR": "Winning (+2)",
+      "NextOCR": "Winning (+2)",
+      "OvisOCR2": "Fail (-2)",
+      "Qwen2.5-Omni-3B-GGUF": "Good (+1)",
+      "Qwen2.5-VL-3B-Instruct-GGUF": "Winning (+2)",
+      "Qwen3-VL-4B-Instruct-GGUF": "Winning (+2)",
+      "Qwen3-VL-8B-Instruct-GGUF": "Winning (+2)",
+      "Qwen3.5-0.8B-GGUF": "Winning (+2)",
+      "Qwen3.5-2B-GGUF": "Winning (+2)",
+      "Qwen3.5-4B-GGUF": "Winning (+2)",
+      "Qwen3.5-4B-MTP-GGUF": "Winning (+2)",
+      "Qwen3.5-9B-GGUF": "Winning (+2)",
+      "Qwythos-9Bv2": "Winning (+2)",
+      "Unlimited-OCR": "Fail (-2)",
+      "XCurOS-OCR": "Good (+1)",
+      "olmOCR2": "Winning (+2)",
+      "summary": "23/27 pass, 4 fail (85% of all models)"
+    },
+    {
+      "scenario": "animal_25_duck_jpg",
+      "ATH-MaaS_OvisOCR2": "Fail (-2)",
+      "Deepseek-OCR2": "Bad (-1)",
+      "English-Document-OCR": "Winning (+2)",
+      "GLM-OCR": "Good (+1)",
+      "Gemma-3-4b-it-GGUF": "Winning (+2)",
+      "Gemma-4-12B-it-GGUF": "Winning (+2)",
+      "Gemma-4-E2B-it-GGUF": "Winning (+2)",
+      "Gemma-4-E4B-it-GGUF": "Winning (+2)",
+      "Jan-v2-VL-High": "Winning (+2)",
+      "MiniCPM-o-4.5-Vision-GGUF": "Good (+1)",
+      "Ministral-3-3B-Instruct-2512-GGUF": "Winning (+2)",
+      "Nanonets-OCR": "Good (+1)",
+      "NextOCR": "Winning (+2)",
+      "OvisOCR2": "Fail (-2)",
+      "Qwen2.5-Omni-3B-GGUF": "Good (+1)",
+      "Qwen2.5-VL-3B-Instruct-GGUF": "Bad (-1)",
+      "Qwen3-VL-4B-Instruct-GGUF": "Winning (+2)",
+      "Qwen3-VL-8B-Instruct-GGUF": "Winning (+2)",
+      "Qwen3.5-0.8B-GGUF": "Fail (-2)",
+      "Qwen3.5-2B-GGUF": "Winning (+2)",
+      "Qwen3.5-4B-GGUF": "Winning (+2)",
+      "Qwen3.5-4B-MTP-GGUF": "Winning (+2)",
+      "Qwen3.5-9B-GGUF": "Winning (+2)",
+      "Qwythos-9Bv2": "Winning (+2)",
+      "Unlimited-OCR": "Fail (-2)",
+      "XCurOS-OCR": "Good (+1)",
+      "olmOCR2": "Good (+1)",
+      "summary": "21/27 pass, 6 fail (78% of all models)"
+    },
+    {
+      "scenario": "animal_27_iguana_jpg",
+      "ATH-MaaS_OvisOCR2": "Fail (-2)",
+      "Deepseek-OCR2": "Fail (-2)",
+      "English-Document-OCR": "Fail (-2)",
+      "GLM-OCR": "Good (+1)",
+      "Gemma-3-4b-it-GGUF": "Winning (+2)",
+      "Gemma-4-12B-it-GGUF": "Winning (+2)",
+      "Gemma-4-E2B-it-GGUF": "Good (+1)",
+      "Gemma-4-E4B-it-GGUF": "Bad (-1)",
+      "Jan-v2-VL-High": "Winning (+2)",
+      "MiniCPM-o-4.5-Vision-GGUF": "Good (+1)",
+      "Ministral-3-3B-Instruct-2512-GGUF": "Fail (-2)",
+      "Nanonets-OCR": "Good (+1)",
+      "NextOCR": "Winning (+2)",
+      "OvisOCR2": "Fail (-2)",
+      "Qwen2.5-Omni-3B-GGUF": "Good (+1)",
+      "Qwen2.5-VL-3B-Instruct-GGUF": "Good (+1)",
+      "Qwen3-VL-4B-Instruct-GGUF": "Winning (+2)",
+      "Qwen3-VL-8B-Instruct-GGUF": "Winning (+2)",
+      "Qwen3.5-0.8B-GGUF": "Winning (+2)",
+      "Qwen3.5-2B-GGUF": "Winning (+2)",
+      "Qwen3.5-4B-GGUF": "Winning (+2)",
+      "Qwen3.5-4B-MTP-GGUF": "Winning (+2)",
+      "Qwen3.5-9B-GGUF": "Winning (+2)",
+      "Qwythos-9Bv2": "Good (+1)",
+      "Unlimited-OCR": "Fail (-2)",
+      "XCurOS-OCR": "Good (+1)",
+      "olmOCR2": "Good (+1)",
+      "summary": "20/27 pass, 7 fail (74% of all models)"
+    },
+    {
+      "scenario": "animal_30_lizard_jpg",
+      "ATH-MaaS_OvisOCR2": "Fail (-2)",
+      "Deepseek-OCR2": "Good (+1)",
+      "English-Document-OCR": "Winning (+2)",
+      "GLM-OCR": "Good (+1)",
+      "Gemma-3-4b-it-GGUF": "Winning (+2)",
+      "Gemma-4-12B-it-GGUF": "Winning (+2)",
+      "Gemma-4-E2B-it-GGUF": "Winning (+2)",
+      "Gemma-4-E4B-it-GGUF": "Winning (+2)",
+      "Jan-v2-VL-High": "Winning (+2)",
+      "MiniCPM-o-4.5-Vision-GGUF": "Winning (+2)",
+      "Ministral-3-3B-Instruct-2512-GGUF": "Winning (+2)",
+      "Nanonets-OCR": "Good (+1)",
+      "NextOCR": "Winning (+2)",
+      "OvisOCR2": "Fail (-2)",
+      "Qwen2.5-Omni-3B-GGUF": "Good (+1)",
+      "Qwen2.5-VL-3B-Instruct-GGUF": "Good (+1)",
+      "Qwen3-VL-4B-Instruct-GGUF": "Winning (+2)",
+      "Qwen3-VL-8B-Instruct-GGUF": "Winning (+2)",
+      "Qwen3.5-0.8B-GGUF": "Winning (+2)",
+      "Qwen3.5-2B-GGUF": "Winning (+2)",
+      "Qwen3.5-4B-GGUF": "Winning (+2)",
+      "Qwen3.5-4B-MTP-GGUF": "Winning (+2)",
+      "Qwen3.5-9B-GGUF": "Winning (+2)",
+      "Qwythos-9Bv2": "Good (+1)",
+      "Unlimited-OCR": "Fail (-2)",
+      "XCurOS-OCR": "Good (+1)",
+      "olmOCR2": "Good (+1)",
+      "summary": "24/27 pass, 3 fail (89% of all models)"
+    },
+    {
+      "scenario": "animal_31_lizard_jpg",
+      "ATH-MaaS_OvisOCR2": "Fail (-2)",
+      "Deepseek-OCR2": "Good (+1)",
+      "English-Document-OCR": "Fail (-2)",
+      "GLM-OCR": "Good (+1)",
+      "Gemma-3-4b-it-GGUF": "Bad (-1)",
+      "Gemma-4-12B-it-GGUF": "Good (+1)",
+      "Gemma-4-E2B-it-GGUF": "Good (+1)",
+      "Gemma-4-E4B-it-GGUF": "Good (+1)",
+      "Jan-v2-VL-High": "Good (+1)",
+      "MiniCPM-o-4.5-Vision-GGUF": "Good (+1)",
+      "Ministral-3-3B-Instruct-2512-GGUF": "Good (+1)",
+      "Nanonets-OCR": "Good (+1)",
+      "NextOCR": "Good (+1)",
+      "OvisOCR2": "Fail (-2)",
+      "Qwen2.5-Omni-3B-GGUF": "Good (+1)",
+      "Qwen2.5-VL-3B-Instruct-GGUF": "Good (+1)",
+      "Qwen3-VL-4B-Instruct-GGUF": "Winning (+2)",
+      "Qwen3-VL-8B-Instruct-GGUF": "Winning (+2)",
+      "Qwen3.5-0.8B-GGUF": "Good (+1)",
+      "Qwen3.5-2B-GGUF": "Winning (+2)",
+      "Qwen3.5-4B-GGUF": "Winning (+2)",
+      "Qwen3.5-4B-MTP-GGUF": "Winning (+2)",
+      "Qwen3.5-9B-GGUF": "Winning (+2)",
+      "Qwythos-9Bv2": "Good (+1)",
+      "Unlimited-OCR": "Fail (-2)",
+      "XCurOS-OCR": "Good (+1)",
+      "olmOCR2": "Good (+1)",
+      "summary": "22/27 pass, 5 fail (81% of all models)"
+    },
+    {
+      "scenario": "animal_32_lizard_jpg",
+      "ATH-MaaS_OvisOCR2": "Fail (-2)",
+      "Deepseek-OCR2": "Good (+1)",
+      "English-Document-OCR": "Good (+1)",
+      "GLM-OCR": "Good (+1)",
+      "Gemma-3-4b-it-GGUF": "Winning (+2)",
+      "Gemma-4-12B-it-GGUF": "Winning (+2)",
+      "Gemma-4-E2B-it-GGUF": "Winning (+2)",
+      "Gemma-4-E4B-it-GGUF": "Winning (+2)",
+      "Jan-v2-VL-High": "Winning (+2)",
+      "MiniCPM-o-4.5-Vision-GGUF": "Winning (+2)",
+      "Ministral-3-3B-Instruct-2512-GGUF": "Winning (+2)",
+      "Nanonets-OCR": "Good (+1)",
+      "NextOCR": "Winning (+2)",
+      "OvisOCR2": "Fail (-2)",
+      "Qwen2.5-Omni-3B-GGUF": "Good (+1)",
+      "Qwen2.5-VL-3B-Instruct-GGUF": "Good (+1)",
+      "Qwen3-VL-4B-Instruct-GGUF": "Winning (+2)",
+      "Qwen3-VL-8B-Instruct-GGUF": "Winning (+2)",
+      "Qwen3.5-0.8B-GGUF": "Winning (+2)",
+      "Qwen3.5-2B-GGUF": "Winning (+2)",
+      "Qwen3.5-4B-GGUF": "Winning (+2)",
+      "Qwen3.5-4B-MTP-GGUF": "Winning (+2)",
+      "Qwen3.5-9B-GGUF": "Winning (+2)",
+      "Qwythos-9Bv2": "Good (+1)",
+      "Unlimited-OCR": "Fail (-2)",
+      "XCurOS-OCR": "Good (+1)",
+      "olmOCR2": "Good (+1)",
+      "summary": "24/27 pass, 3 fail (89% of all models)"
+    },
+    {
+      "scenario": "nature_02_flower_jpg",
+      "ATH-MaaS_OvisOCR2": "Fail (-2)",
+      "Deepseek-OCR2": "Good (+1)",
+      "English-Document-OCR": "Winning (+2)",
+      "GLM-OCR": "Good (+1)",
+      "Gemma-3-4b-it-GGUF": "Winning (+2)",
+      "Gemma-4-12B-it-GGUF": "Winning (+2)",
+      "Gemma-4-E2B-it-GGUF": "Bad (-1)",
+      "Gemma-4-E4B-it-GGUF": "Bad (-1)",
+      "Jan-v2-VL-High": "Winning (+2)",
+      "MiniCPM-o-4.5-Vision-GGUF": "Winning (+2)",
+      "Ministral-3-3B-Instruct-2512-GGUF": "Winning (+2)",
+      "Nanonets-OCR": "Good (+1)",
+      "NextOCR": "Winning (+2)",
+      "OvisOCR2": "Fail (-2)",
+      "Qwen2.5-Omni-3B-GGUF": "Bad (-1)",
+      "Qwen2.5-VL-3B-Instruct-GGUF": "Good (+1)",
+      "Qwen3-VL-4B-Instruct-GGUF": "Winning (+2)",
+      "Qwen3-VL-8B-Instruct-GGUF": "Winning (+2)",
+      "Qwen3.5-0.8B-GGUF": "Winning (+2)",
+      "Qwen3.5-2B-GGUF": "Winning (+2)",
+      "Qwen3.5-4B-GGUF": "Winning (+2)",
+      "Qwen3.5-4B-MTP-GGUF": "Winning (+2)",
+      "Qwen3.5-9B-GGUF": "Winning (+2)",
+      "Qwythos-9Bv2": "Good (+1)",
+      "Unlimited-OCR": "Fail (-2)",
+      "XCurOS-OCR": "Good (+1)",
+      "olmOCR2": "Good (+1)",
+      "summary": "21/27 pass, 6 fail (78% of all models)"
+    },
+    {
+      "scenario": "nature_04_flower_jpg",
+      "ATH-MaaS_OvisOCR2": "Fail (-2)",
+      "Deepseek-OCR2": "Winning (+2)",
+      "English-Document-OCR": "Winning (+2)",
+      "GLM-OCR": "Bad (-1)",
+      "Gemma-3-4b-it-GGUF": "Winning (+2)",
+      "Gemma-4-12B-it-GGUF": "Winning (+2)",
+      "Gemma-4-E2B-it-GGUF": "Bad (-1)",
+      "Gemma-4-E4B-it-GGUF": "Bad (-1)",
+      "Jan-v2-VL-High": "Winning (+2)",
+      "MiniCPM-o-4.5-Vision-GGUF": "Good (+1)",
+      "Ministral-3-3B-Instruct-2512-GGUF": "Winning (+2)",
+      "Nanonets-OCR": "Good (+1)",
+      "NextOCR": "Winning (+2)",
+      "OvisOCR2": "Fail (-2)",
+      "Qwen2.5-Omni-3B-GGUF": "Good (+1)",
+      "Qwen2.5-VL-3B-Instruct-GGUF": "Good (+1)",
+      "Qwen3-VL-4B-Instruct-GGUF": "Winning (+2)",
+      "Qwen3-VL-8B-Instruct-GGUF": "Winning (+2)",
+      "Qwen3.5-0.8B-GGUF": "Winning (+2)",
+      "Qwen3.5-2B-GGUF": "Winning (+2)",
+      "Qwen3.5-4B-GGUF": "Winning (+2)",
+      "Qwen3.5-4B-MTP-GGUF": "Winning (+2)",
+      "Qwen3.5-9B-GGUF": "Winning (+2)",
+      "Qwythos-9Bv2": "Winning (+2)",
+      "Unlimited-OCR": "Fail (-2)",
+      "XCurOS-OCR": "Bad (-1)",
+      "olmOCR2": "Good (+1)",
+      "summary": "20/27 pass, 7 fail (74% of all models)"
+    },
+    {
+      "scenario": "nature_05_flower_jpg",
+      "ATH-MaaS_OvisOCR2": "Fail (-2)",
+      "Deepseek-OCR2": "Good (+1)",
+      "English-Document-OCR": "Winning (+2)",
+      "GLM-OCR": "Bad (-1)",
+      "Gemma-3-4b-it-GGUF": "Bad (-1)",
+      "Gemma-4-12B-it-GGUF": "Winning (+2)",
+      "Gemma-4-E2B-it-GGUF": "Bad (-1)",
+      "Gemma-4-E4B-it-GGUF": "Winning (+2)",
+      "Jan-v2-VL-High": "Winning (+2)",
+      "MiniCPM-o-4.5-Vision-GGUF": "Winning (+2)",
+      "Ministral-3-3B-Instruct-2512-GGUF": "Winning (+2)",
+      "Nanonets-OCR": "Good (+1)",
+      "NextOCR": "Winning (+2)",
+      "OvisOCR2": "Fail (-2)",
+      "Qwen2.5-Omni-3B-GGUF": "Good (+1)",
+      "Qwen2.5-VL-3B-Instruct-GGUF": "Good (+1)",
+      "Qwen3-VL-4B-Instruct-GGUF": "Winning (+2)",
+      "Qwen3-VL-8B-Instruct-GGUF": "Winning (+2)",
+      "Qwen3.5-0.8B-GGUF": "Bad (-1)",
+      "Qwen3.5-2B-GGUF": "Winning (+2)",
+      "Qwen3.5-4B-GGUF": "Winning (+2)",
+      "Qwen3.5-4B-MTP-GGUF": "Winning (+2)",
+      "Qwen3.5-9B-GGUF": "Winning (+2)",
+      "Qwythos-9Bv2": "Good (+1)",
+      "Unlimited-OCR": "Fail (-2)",
+      "XCurOS-OCR": "Good (+1)",
+      "olmOCR2": "Good (+1)",
+      "summary": "20/27 pass, 7 fail (74% of all models)"
+    },
+    {
+      "scenario": "nature_06_nebula_jpg",
+      "ATH-MaaS_OvisOCR2": "Fail (-2)",
+      "Deepseek-OCR2": "Fail (-2)",
+      "English-Document-OCR": "Good (+1)",
+      "GLM-OCR": "Good (+1)",
+      "Gemma-3-4b-it-GGUF": "Fail (-2)",
+      "Gemma-4-12B-it-GGUF": "Good (+1)",
+      "Gemma-4-E2B-it-GGUF": "Good (+1)",
+      "Gemma-4-E4B-it-GGUF": "Good (+1)",
+      "Jan-v2-VL-High": "Good (+1)",
+      "MiniCPM-o-4.5-Vision-GGUF": "Good (+1)",
+      "Ministral-3-3B-Instruct-2512-GGUF": "Good (+1)",
+      "Nanonets-OCR": "Winning (+2)",
+      "NextOCR": "Winning (+2)",
+      "OvisOCR2": "Fail (-2)",
+      "Qwen2.5-Omni-3B-GGUF": "Winning (+2)",
+      "Qwen2.5-VL-3B-Instruct-GGUF": "Winning (+2)",
+      "Qwen3-VL-4B-Instruct-GGUF": "Good (+1)",
+      "Qwen3-VL-8B-Instruct-GGUF": "Winning (+2)",
+      "Qwen3.5-0.8B-GGUF": "Fail (-2)",
+      "Qwen3.5-2B-GGUF": "Fail (-2)",
+      "Qwen3.5-4B-GGUF": "Good (+1)",
+      "Qwen3.5-4B-MTP-GGUF": "Good (+1)",
+      "Qwen3.5-9B-GGUF": "Fail (-2)",
+      "Qwythos-9Bv2": "Good (+1)",
+      "Unlimited-OCR": "Fail (-2)",
+      "XCurOS-OCR": "Good (+1)",
+      "olmOCR2": "Good (+1)",
+      "summary": "19/27 pass, 8 fail (70% of all models)"
+    },
+    {
+      "scenario": "nature_07_nebula_jpg",
+      "ATH-MaaS_OvisOCR2": "Fail (-2)",
+      "Deepseek-OCR2": "Fail (-2)",
+      "English-Document-OCR": "Good (+1)",
+      "GLM-OCR": "Good (+1)",
+      "Gemma-3-4b-it-GGUF": "Fail (-2)",
+      "Gemma-4-12B-it-GGUF": "Winning (+2)",
+      "Gemma-4-E2B-it-GGUF": "Good (+1)",
+      "Gemma-4-E4B-it-GGUF": "Good (+1)",
+      "Jan-v2-VL-High": "Good (+1)",
+      "MiniCPM-o-4.5-Vision-GGUF": "Good (+1)",
+      "Ministral-3-3B-Instruct-2512-GGUF": "Fail (-2)",
+      "Nanonets-OCR": "Winning (+2)",
+      "NextOCR": "Winning (+2)",
+      "OvisOCR2": "Fail (-2)",
+      "Qwen2.5-Omni-3B-GGUF": "Winning (+2)",
+      "Qwen2.5-VL-3B-Instruct-GGUF": "Winning (+2)",
+      "Qwen3-VL-4B-Instruct-GGUF": "Fail (-2)",
+      "Qwen3-VL-8B-Instruct-GGUF": "Winning (+2)",
+      "Qwen3.5-0.8B-GGUF": "Fail (-2)",
+      "Qwen3.5-2B-GGUF": "Fail (-2)",
+      "Qwen3.5-4B-GGUF": "Fail (-2)",
+      "Qwen3.5-4B-MTP-GGUF": "Fail (-2)",
+      "Qwen3.5-9B-GGUF": "Fail (-2)",
+      "Qwythos-9Bv2": "Good (+1)",
+      "Unlimited-OCR": "Fail (-2)",
+      "XCurOS-OCR": "Good (+1)",
+      "olmOCR2": "Good (+1)",
+      "summary": "15/27 pass, 12 fail (56% of all models)"
+    },
+    {
+      "scenario": "nature_08_nebula_jpg",
+      "ATH-MaaS_OvisOCR2": "Fail (-2)",
+      "Deepseek-OCR2": "Fail (-2)",
+      "English-Document-OCR": "Good (+1)",
+      "GLM-OCR": "Winning (+2)",
+      "Gemma-3-4b-it-GGUF": "Winning (+2)",
+      "Gemma-4-12B-it-GGUF": "Good (+1)",
+      "Gemma-4-E2B-it-GGUF": "Good (+1)",
+      "Gemma-4-E4B-it-GGUF": "Good (+1)",
+      "Jan-v2-VL-High": "Winning (+2)",
+      "MiniCPM-o-4.5-Vision-GGUF": "Winning (+2)",
+      "Ministral-3-3B-Instruct-2512-GGUF": "Winning (+2)",
+      "Nanonets-OCR": "Winning (+2)",
+      "NextOCR": "Winning (+2)",
+      "OvisOCR2": "Fail (-2)",
+      "Qwen2.5-Omni-3B-GGUF": "Winning (+2)",
+      "Qwen2.5-VL-3B-Instruct-GGUF": "Winning (+2)",
+      "Qwen3-VL-4B-Instruct-GGUF": "Good (+1)",
+      "Qwen3-VL-8B-Instruct-GGUF": "Winning (+2)",
+      "Qwen3.5-0.8B-GGUF": "Good (+1)",
+      "Qwen3.5-2B-GGUF": "Winning (+2)",
+      "Qwen3.5-4B-GGUF": "Good (+1)",
+      "Qwen3.5-4B-MTP-GGUF": "Winning (+2)",
+      "Qwen3.5-9B-GGUF": "Good (+1)",
+      "Qwythos-9Bv2": "Good (+1)",
+      "Unlimited-OCR": "Fail (-2)",
+      "XCurOS-OCR": "Winning (+2)",
+      "olmOCR2": "Winning (+2)",
+      "summary": "23/27 pass, 4 fail (85% of all models)"
+    },
+    {
+      "scenario": "thing_00_radiotelescope_jpg",
+      "ATH-MaaS_OvisOCR2": "Fail (-2)",
+      "Deepseek-OCR2": "Good (+1)",
+      "English-Document-OCR": "Winning (+2)",
+      "GLM-OCR": "Good (+1)",
+      "Gemma-3-4b-it-GGUF": "Winning (+2)",
+      "Gemma-4-12B-it-GGUF": "Good (+1)",
+      "Gemma-4-E2B-it-GGUF": "Winning (+2)",
+      "Gemma-4-E4B-it-GGUF": "Winning (+2)",
+      "Jan-v2-VL-High": "Good (+1)",
+      "MiniCPM-o-4.5-Vision-GGUF": "Winning (+2)",
+      "Ministral-3-3B-Instruct-2512-GGUF": "Winning (+2)",
+      "Nanonets-OCR": "Good (+1)",
+      "NextOCR": "Winning (+2)",
+      "OvisOCR2": "Fail (-2)",
+      "Qwen2.5-Omni-3B-GGUF": "Winning (+2)",
+      "Qwen2.5-VL-3B-Instruct-GGUF": "Good (+1)",
+      "Qwen3-VL-4B-Instruct-GGUF": "Good (+1)",
+      "Qwen3-VL-8B-Instruct-GGUF": "Good (+1)",
+      "Qwen3.5-0.8B-GGUF": "Good (+1)",
+      "Qwen3.5-2B-GGUF": "Good (+1)",
+      "Qwen3.5-4B-GGUF": "Winning (+2)",
+      "Qwen3.5-4B-MTP-GGUF": "Winning (+2)",
+      "Qwen3.5-9B-GGUF": "Winning (+2)",
+      "Qwythos-9Bv2": "Good (+1)",
+      "Unlimited-OCR": "Fail (-2)",
+      "XCurOS-OCR": "Good (+1)",
+      "olmOCR2": "Winning (+2)",
+      "summary": "24/27 pass, 3 fail (89% of all models)"
+    },
+    {
+      "scenario": "thing_01_car_jpg",
+      "ATH-MaaS_OvisOCR2": "Fail (-2)",
+      "Deepseek-OCR2": "Fail (-2)",
+      "English-Document-OCR": "Fail (-2)",
+      "GLM-OCR": "Good (+1)",
+      "Gemma-3-4b-it-GGUF": "Winning (+2)",
+      "Gemma-4-12B-it-GGUF": "Winning (+2)",
+      "Gemma-4-E2B-it-GGUF": "Good (+1)",
+      "Gemma-4-E4B-it-GGUF": "Good (+1)",
+      "Jan-v2-VL-High": "Winning (+2)",
+      "MiniCPM-o-4.5-Vision-GGUF": "Good (+1)",
+      "Ministral-3-3B-Instruct-2512-GGUF": "Fail (-2)",
+      "Nanonets-OCR": "Good (+1)",
+      "NextOCR": "Winning (+2)",
+      "OvisOCR2": "Fail (-2)",
+      "Qwen2.5-Omni-3B-GGUF": "Fail (-2)",
+      "Qwen2.5-VL-3B-Instruct-GGUF": "Fail (-2)",
+      "Qwen3-VL-4B-Instruct-GGUF": "Winning (+2)",
+      "Qwen3-VL-8B-Instruct-GGUF": "Good (+1)",
+      "Qwen3.5-0.8B-GGUF": "Fail (-2)",
+      "Qwen3.5-2B-GGUF": "Winning (+2)",
+      "Qwen3.5-4B-GGUF": "Winning (+2)",
+      "Qwen3.5-4B-MTP-GGUF": "Fail (-2)",
+      "Qwen3.5-9B-GGUF": "Winning (+2)",
+      "Qwythos-9Bv2": "Good (+1)",
+      "Unlimited-OCR": "Fail (-2)",
+      "XCurOS-OCR": "Good (+1)",
+      "olmOCR2": "Fail (-2)",
+      "summary": "16/27 pass, 11 fail (59% of all models)"
+    },
+    {
+      "scenario": "thing_02_clock_jpg",
+      "ATH-MaaS_OvisOCR2": "Fail (-2)",
+      "Deepseek-OCR2": "Fail (-2)",
+      "English-Document-OCR": "Winning (+2)",
+      "GLM-OCR": "Bad (-1)",
+      "Gemma-3-4b-it-GGUF": "Winning (+2)",
+      "Gemma-4-12B-it-GGUF": "Winning (+2)",
+      "Gemma-4-E2B-it-GGUF": "Winning (+2)",
+      "Gemma-4-E4B-it-GGUF": "Winning (+2)",
+      "Jan-v2-VL-High": "Fail (-2)",
+      "MiniCPM-o-4.5-Vision-GGUF": "Winning (+2)",
+      "Ministral-3-3B-Instruct-2512-GGUF": "Winning (+2)",
+      "Nanonets-OCR": "Winning (+2)",
+      "NextOCR": "Winning (+2)",
+      "OvisOCR2": "Fail (-2)",
+      "Qwen2.5-Omni-3B-GGUF": "Good (+1)",
+      "Qwen2.5-VL-3B-Instruct-GGUF": "Winning (+2)",
+      "Qwen3-VL-4B-Instruct-GGUF": "Good (+1)",
+      "Qwen3-VL-8B-Instruct-GGUF": "Good (+1)",
+      "Qwen3.5-0.8B-GGUF": "Bad (-1)",
+      "Qwen3.5-2B-GGUF": "Bad (-1)",
+      "Qwen3.5-4B-GGUF": "Bad (-1)",
+      "Qwen3.5-4B-MTP-GGUF": "Bad (-1)",
+      "Qwen3.5-9B-GGUF": "Winning (+2)",
+      "Qwythos-9Bv2": "Good (+1)",
+      "Unlimited-OCR": "Fail (-2)",
+      "XCurOS-OCR": "Good (+1)",
+      "olmOCR2": "Bad (-1)",
+      "summary": "16/27 pass, 11 fail (59% of all models)"
+    },
+    {
+      "scenario": "thing_03_enigma_jpg",
+      "ATH-MaaS_OvisOCR2": "Fail (-2)",
+      "Deepseek-OCR2": "Fail (-2)",
+      "English-Document-OCR": "Fail (-2)",
+      "GLM-OCR": "Fail (-2)",
+      "Gemma-3-4b-it-GGUF": "Fail (-2)",
+      "Gemma-4-12B-it-GGUF": "Winning (+2)",
+      "Gemma-4-E2B-it-GGUF": "Fail (-2)",
+      "Gemma-4-E4B-it-GGUF": "Good (+1)",
+      "Jan-v2-VL-High": "Fail (-2)",
+      "MiniCPM-o-4.5-Vision-GGUF": "Good (+1)",
+      "Ministral-3-3B-Instruct-2512-GGUF": "Winning (+2)",
+      "Nanonets-OCR": "Winning (+2)",
+      "NextOCR": "Winning (+2)",
+      "OvisOCR2": "Fail (-2)",
+      "Qwen2.5-Omni-3B-GGUF": "Fail (-2)",
+      "Qwen2.5-VL-3B-Instruct-GGUF": "Fail (-2)",
+      "Qwen3-VL-4B-Instruct-GGUF": "Winning (+2)",
+      "Qwen3-VL-8B-Instruct-GGUF": "Fail (-2)",
+      "Qwen3.5-0.8B-GGUF": "Fail (-2)",
+      "Qwen3.5-2B-GGUF": "Fail (-2)",
+      "Qwen3.5-4B-GGUF": "Fail (-2)",
+      "Qwen3.5-4B-MTP-GGUF": "Fail (-2)",
+      "Qwen3.5-9B-GGUF": "Fail (-2)",
+      "Qwythos-9Bv2": "Winning (+2)",
+      "Unlimited-OCR": "Fail (-2)",
+      "XCurOS-OCR": "Fail (-2)",
+      "olmOCR2": "Winning (+2)",
+      "summary": "9/27 pass, 18 fail (33% of all models)"
+    },
+    {
+      "scenario": "thing_04_sr71_jpg",
+      "ATH-MaaS_OvisOCR2": "Fail (-2)",
+      "Deepseek-OCR2": "Fail (-2)",
+      "English-Document-OCR": "Fail (-2)",
+      "GLM-OCR": "Fail (-2)",
+      "Gemma-3-4b-it-GGUF": "Winning (+2)",
+      "Gemma-4-12B-it-GGUF": "Winning (+2)",
+      "Gemma-4-E2B-it-GGUF": "Fail (-2)",
+      "Gemma-4-E4B-it-GGUF": "Fail (-2)",
+      "Jan-v2-VL-High": "Winning (+2)",
+      "MiniCPM-o-4.5-Vision-GGUF": "Winning (+2)",
+      "Ministral-3-3B-Instruct-2512-GGUF": "Winning (+2)",
+      "Nanonets-OCR": "Fail (-2)",
+      "NextOCR": "Winning (+2)",
+      "OvisOCR2": "Fail (-2)",
+      "Qwen2.5-Omni-3B-GGUF": "Fail (-2)",
+      "Qwen2.5-VL-3B-Instruct-GGUF": "Fail (-2)",
+      "Qwen3-VL-4B-Instruct-GGUF": "Winning (+2)",
+      "Qwen3-VL-8B-Instruct-GGUF": "Winning (+2)",
+      "Qwen3.5-0.8B-GGUF": "Fail (-2)",
+      "Qwen3.5-2B-GGUF": "Winning (+2)",
+      "Qwen3.5-4B-GGUF": "Winning (+2)",
+      "Qwen3.5-4B-MTP-GGUF": "Winning (+2)",
+      "Qwen3.5-9B-GGUF": "Fail (-2)",
+      "Qwythos-9Bv2": "Fail (-2)",
+      "Unlimited-OCR": "Fail (-2)",
+      "XCurOS-OCR": "Fail (-2)",
+      "olmOCR2": "Fail (-2)",
+      "summary": "11/27 pass, 16 fail (41% of all models)"
+    },
+    {
+      "scenario": "thing_05_ornament_jpg",
+      "ATH-MaaS_OvisOCR2": "Fail (-2)",
+      "Deepseek-OCR2": "Bad (-1)",
+      "English-Document-OCR": "Bad (-1)",
+      "GLM-OCR": "Good (+1)",
+      "Gemma-3-4b-it-GGUF": "Winning (+2)",
+      "Gemma-4-12B-it-GGUF": "Winning (+2)",
+      "Gemma-4-E2B-it-GGUF": "Bad (-1)",
+      "Gemma-4-E4B-it-GGUF": "Bad (-1)",
+      "Jan-v2-VL-High": "Winning (+2)",
+      "MiniCPM-o-4.5-Vision-GGUF": "Good (+1)",
+      "Ministral-3-3B-Instruct-2512-GGUF": "Good (+1)",
+      "Nanonets-OCR": "Bad (-1)",
+      "NextOCR": "Winning (+2)",
+      "OvisOCR2": "Fail (-2)",
+      "Qwen2.5-Omni-3B-GGUF": "Good (+1)",
+      "Qwen2.5-VL-3B-Instruct-GGUF": "Good (+1)",
+      "Qwen3-VL-4B-Instruct-GGUF": "Fail (-2)",
+      "Qwen3-VL-8B-Instruct-GGUF": "Winning (+2)",
+      "Qwen3.5-0.8B-GGUF": "Good (+1)",
+      "Qwen3.5-2B-GGUF": "Fail (-2)",
+      "Qwen3.5-4B-GGUF": "Fail (-2)",
+      "Qwen3.5-4B-MTP-GGUF": "Fail (-2)",
+      "Qwen3.5-9B-GGUF": "Good (+1)",
+      "Qwythos-9Bv2": "Good (+1)",
+      "Unlimited-OCR": "Fail (-2)",
+      "XCurOS-OCR": "Good (+1)",
+      "olmOCR2": "Bad (-1)",
+      "summary": "14/27 pass, 13 fail (52% of all models)"
+    },
+    {
+      "scenario": "thing_06_portrait_jpg",
+      "ATH-MaaS_OvisOCR2": "Fail (-2)",
+      "Deepseek-OCR2": "Bad (-1)",
+      "English-Document-OCR": "Fail (-2)",
+      "GLM-OCR": "Fail (-2)",
+      "Gemma-3-4b-it-GGUF": "Winning (+2)",
+      "Gemma-4-12B-it-GGUF": "Fail (-2)",
+      "Gemma-4-E2B-it-GGUF": "Fail (-2)",
+      "Gemma-4-E4B-it-GGUF": "Fail (-2)",
+      "Jan-v2-VL-High": "Fail (-2)",
+      "MiniCPM-o-4.5-Vision-GGUF": "Winning (+2)",
+      "Ministral-3-3B-Instruct-2512-GGUF": "Winning (+2)",
+      "Nanonets-OCR": "Fail (-2)",
+      "NextOCR": "Winning (+2)",
+      "OvisOCR2": "Fail (-2)",
+      "Qwen2.5-Omni-3B-GGUF": "Fail (-2)",
+      "Qwen2.5-VL-3B-Instruct-GGUF": "Winning (+2)",
+      "Qwen3-VL-4B-Instruct-GGUF": "Winning (+2)",
+      "Qwen3-VL-8B-Instruct-GGUF": "Winning (+2)",
+      "Qwen3.5-0.8B-GGUF": "Fail (-2)",
+      "Qwen3.5-2B-GGUF": "Winning (+2)",
+      "Qwen3.5-4B-GGUF": "Winning (+2)",
+      "Qwen3.5-4B-MTP-GGUF": "Winning (+2)",
+      "Qwen3.5-9B-GGUF": "Winning (+2)",
+      "Qwythos-9Bv2": "Winning (+2)",
+      "Unlimited-OCR": "Fail (-2)",
+      "XCurOS-OCR": "Fail (-2)",
+      "olmOCR2": "Fail (-2)",
+      "summary": "12/27 pass, 15 fail (44% of all models)"
+    },
+    {
+      "scenario": "thing_07_scultpure_jpg",
+      "ATH-MaaS_OvisOCR2": "Fail (-2)",
+      "Deepseek-OCR2": "Bad (-1)",
+      "English-Document-OCR": "Fail (-2)",
+      "GLM-OCR": "Winning (+2)",
+      "Gemma-3-4b-it-GGUF": "Winning (+2)",
+      "Gemma-4-12B-it-GGUF": "Winning (+2)",
+      "Gemma-4-E2B-it-GGUF": "Fail (-2)",
+      "Gemma-4-E4B-it-GGUF": "Fail (-2)",
+      "Jan-v2-VL-High": "Winning (+2)",
+      "MiniCPM-o-4.5-Vision-GGUF": "Winning (+2)",
+      "Ministral-3-3B-Instruct-2512-GGUF": "Winning (+2)",
+      "Nanonets-OCR": "Fail (-2)",
+      "NextOCR": "Winning (+2)",
+      "OvisOCR2": "Fail (-2)",
+      "Qwen2.5-Omni-3B-GGUF": "Winning (+2)",
+      "Qwen2.5-VL-3B-Instruct-GGUF": "Fail (-2)",
+      "Qwen3-VL-4B-Instruct-GGUF": "Winning (+2)",
+      "Qwen3-VL-8B-Instruct-GGUF": "Winning (+2)",
+      "Qwen3.5-0.8B-GGUF": "Fail (-2)",
+      "Qwen3.5-2B-GGUF": "Winning (+2)",
+      "Qwen3.5-4B-GGUF": "Winning (+2)",
+      "Qwen3.5-4B-MTP-GGUF": "Winning (+2)",
+      "Qwen3.5-9B-GGUF": "Winning (+2)",
+      "Qwythos-9Bv2": "Winning (+2)",
+      "Unlimited-OCR": "Fail (-2)",
+      "XCurOS-OCR": "Winning (+2)",
+      "olmOCR2": "Fail (-2)",
+      "summary": "16/27 pass, 11 fail (59% of all models)"
+    },
+    {
+      "scenario": "thing_08_sculpture_jpg",
+      "ATH-MaaS_OvisOCR2": "Fail (-2)",
+      "Deepseek-OCR2": "Winning (+2)",
+      "English-Document-OCR": "Winning (+2)",
+      "GLM-OCR": "Fail (-2)",
+      "Gemma-3-4b-it-GGUF": "Winning (+2)",
+      "Gemma-4-12B-it-GGUF": "Winning (+2)",
+      "Gemma-4-E2B-it-GGUF": "Winning (+2)",
+      "Gemma-4-E4B-it-GGUF": "Winning (+2)",
+      "Jan-v2-VL-High": "Winning (+2)",
+      "MiniCPM-o-4.5-Vision-GGUF": "Winning (+2)",
+      "Ministral-3-3B-Instruct-2512-GGUF": "Winning (+2)",
+      "Nanonets-OCR": "Winning (+2)",
+      "NextOCR": "Winning (+2)",
+      "OvisOCR2": "Fail (-2)",
+      "Qwen2.5-Omni-3B-GGUF": "Winning (+2)",
+      "Qwen2.5-VL-3B-Instruct-GGUF": "Winning (+2)",
+      "Qwen3-VL-4B-Instruct-GGUF": "Winning (+2)",
+      "Qwen3-VL-8B-Instruct-GGUF": "Winning (+2)",
+      "Qwen3.5-0.8B-GGUF": "Winning (+2)",
+      "Qwen3.5-2B-GGUF": "Winning (+2)",
+      "Qwen3.5-4B-GGUF": "Winning (+2)",
+      "Qwen3.5-4B-MTP-GGUF": "Winning (+2)",
+      "Qwen3.5-9B-GGUF": "Winning (+2)",
+      "Qwythos-9Bv2": "Winning (+2)",
+      "Unlimited-OCR": "Fail (-2)",
+      "XCurOS-OCR": "Fail (-2)",
+      "olmOCR2": "Winning (+2)",
+      "summary": "22/27 pass, 5 fail (81% of all models)"
+    },
+    {
+      "scenario": "thing_09_trevi_jpg",
+      "ATH-MaaS_OvisOCR2": "Fail (-2)",
+      "Deepseek-OCR2": "Fail (-2)",
+      "English-Document-OCR": "Winning (+2)",
+      "GLM-OCR": "Fail (-2)",
+      "Gemma-3-4b-it-GGUF": "Winning (+2)",
+      "Gemma-4-12B-it-GGUF": "Winning (+2)",
+      "Gemma-4-E2B-it-GGUF": "Fail (-2)",
+      "Gemma-4-E4B-it-GGUF": "Fail (-2)",
+      "Jan-v2-VL-High": "Winning (+2)",
+      "MiniCPM-o-4.5-Vision-GGUF": "Good (+1)",
+      "Ministral-3-3B-Instruct-2512-GGUF": "Winning (+2)",
+      "Nanonets-OCR": "Winning (+2)",
+      "NextOCR": "Winning (+2)",
+      "OvisOCR2": "Fail (-2)",
+      "Qwen2.5-Omni-3B-GGUF": "Winning (+2)",
+      "Qwen2.5-VL-3B-Instruct-GGUF": "Winning (+2)",
+      "Qwen3-VL-4B-Instruct-GGUF": "Winning (+2)",
+      "Qwen3-VL-8B-Instruct-GGUF": "Winning (+2)",
+      "Qwen3.5-0.8B-GGUF": "Winning (+2)",
+      "Qwen3.5-2B-GGUF": "Winning (+2)",
+      "Qwen3.5-4B-GGUF": "Fail (-2)",
+      "Qwen3.5-4B-MTP-GGUF": "Fail (-2)",
+      "Qwen3.5-9B-GGUF": "Winning (+2)",
+      "Qwythos-9Bv2": "Winning (+2)",
+      "Unlimited-OCR": "Fail (-2)",
+      "XCurOS-OCR": "Fail (-2)",
+      "olmOCR2": "Winning (+2)",
+      "summary": "17/27 pass, 10 fail (63% of all models)"
+    }
+  ]
+}

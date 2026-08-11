@@ -1,0 +1,2217 @@
+{
+  "version": 2,
+  "exported": "2026-08-10T17:42:30.224Z",
+  "source_file": "unknown",
+  "total_models": 27,
+  "models": [
+    "ATH-MaaS_OvisOCR2",
+    "Deepseek-OCR2",
+    "English-Document-OCR",
+    "GLM-OCR",
+    "Gemma-3-4b-it-GGUF",
+    "Gemma-4-12B-it-GGUF",
+    "Gemma-4-E2B-it-GGUF",
+    "Gemma-4-E4B-it-GGUF",
+    "Jan-v2-VL-High",
+    "MiniCPM-o-4.5-Vision-GGUF",
+    "Ministral-3-3B-Instruct-2512-GGUF",
+    "Nanonets-OCR",
+    "NextOCR",
+    "OvisOCR2",
+    "Qwen2.5-Omni-3B-GGUF",
+    "Qwen2.5-VL-3B-Instruct-GGUF",
+    "Qwen3-VL-4B-Instruct-GGUF",
+    "Qwen3-VL-8B-Instruct-GGUF",
+    "Qwen3.5-0.8B-GGUF",
+    "Qwen3.5-2B-GGUF",
+    "Qwen3.5-4B-GGUF",
+    "Qwen3.5-4B-MTP-GGUF",
+    "Qwen3.5-9B-GGUF",
+    "Qwythos-9Bv2",
+    "Unlimited-OCR",
+    "XCurOS-OCR",
+    "olmOCR2"
+  ],
+  "scenarios_count": 11,
+  "detail": {
+    "ATH-MaaS_OvisOCR2": [
+      {
+        "scenario": "the-corona-story",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "declaration-of-independence",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "formulas-of-sputnik-1",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "formulas-of-sputnik-2",
+        "score_key": "-1",
+        "text": "Bad (-1)",
+        "cls": "bad"
+      },
+      {
+        "scenario": "hexagon_1",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "hexagon_3",
+        "score_key": "-1",
+        "text": "Bad (-1)",
+        "cls": "bad"
+      },
+      {
+        "scenario": "pamd_akm_0",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "pamd_akm_4",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "pamd_akm_6",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "pamd_akm_7",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "tiros",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      }
+    ],
+    "Deepseek-OCR2": [
+      {
+        "scenario": "the-corona-story",
+        "score_key": "-1",
+        "text": "Bad (-1)",
+        "cls": "bad"
+      },
+      {
+        "scenario": "declaration-of-independence",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "formulas-of-sputnik-1",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "formulas-of-sputnik-2",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "hexagon_1",
+        "score_key": "-1",
+        "text": "Bad (-1)",
+        "cls": "bad"
+      },
+      {
+        "scenario": "hexagon_3",
+        "score_key": "-1",
+        "text": "Bad (-1)",
+        "cls": "bad"
+      },
+      {
+        "scenario": "pamd_akm_0",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "pamd_akm_4",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "pamd_akm_6",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "pamd_akm_7",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "tiros",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      }
+    ],
+    "English-Document-OCR": [
+      {
+        "scenario": "the-corona-story",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "declaration-of-independence",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "formulas-of-sputnik-1",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "formulas-of-sputnik-2",
+        "score_key": "-1",
+        "text": "Bad (-1)",
+        "cls": "bad"
+      },
+      {
+        "scenario": "hexagon_1",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "hexagon_3",
+        "score_key": "-1",
+        "text": "Bad (-1)",
+        "cls": "bad"
+      },
+      {
+        "scenario": "pamd_akm_0",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "pamd_akm_4",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "pamd_akm_6",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "pamd_akm_7",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "tiros",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      }
+    ],
+    "GLM-OCR": [
+      {
+        "scenario": "the-corona-story",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "declaration-of-independence",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "formulas-of-sputnik-1",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "formulas-of-sputnik-2",
+        "score_key": "-1",
+        "text": "Bad (-1)",
+        "cls": "bad"
+      },
+      {
+        "scenario": "hexagon_1",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "hexagon_3",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "pamd_akm_0",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "pamd_akm_4",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "pamd_akm_6",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "pamd_akm_7",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "tiros",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      }
+    ],
+    "Gemma-3-4b-it-GGUF": [
+      {
+        "scenario": "the-corona-story",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "declaration-of-independence",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "formulas-of-sputnik-1",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "formulas-of-sputnik-2",
+        "score_key": "-1",
+        "text": "Bad (-1)",
+        "cls": "bad"
+      },
+      {
+        "scenario": "hexagon_1",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "hexagon_3",
+        "score_key": "-1",
+        "text": "Bad (-1)",
+        "cls": "bad"
+      },
+      {
+        "scenario": "pamd_akm_0",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "pamd_akm_4",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "pamd_akm_6",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "pamd_akm_7",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "tiros",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      }
+    ],
+    "Gemma-4-12B-it-GGUF": [
+      {
+        "scenario": "the-corona-story",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "declaration-of-independence",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "formulas-of-sputnik-1",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "formulas-of-sputnik-2",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "hexagon_1",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "hexagon_3",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "pamd_akm_0",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "pamd_akm_4",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "pamd_akm_6",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "pamd_akm_7",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "tiros",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      }
+    ],
+    "Gemma-4-E2B-it-GGUF": [
+      {
+        "scenario": "the-corona-story",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "declaration-of-independence",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "formulas-of-sputnik-1",
+        "score_key": "-1",
+        "text": "Bad (-1)",
+        "cls": "bad"
+      },
+      {
+        "scenario": "formulas-of-sputnik-2",
+        "score_key": "-1",
+        "text": "Bad (-1)",
+        "cls": "bad"
+      },
+      {
+        "scenario": "hexagon_1",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "hexagon_3",
+        "score_key": "-1",
+        "text": "Bad (-1)",
+        "cls": "bad"
+      },
+      {
+        "scenario": "pamd_akm_0",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "pamd_akm_4",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "pamd_akm_6",
+        "score_key": "-1",
+        "text": "Bad (-1)",
+        "cls": "bad"
+      },
+      {
+        "scenario": "pamd_akm_7",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "tiros",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      }
+    ],
+    "Gemma-4-E4B-it-GGUF": [
+      {
+        "scenario": "the-corona-story",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "declaration-of-independence",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "formulas-of-sputnik-1",
+        "score_key": "-1",
+        "text": "Bad (-1)",
+        "cls": "bad"
+      },
+      {
+        "scenario": "formulas-of-sputnik-2",
+        "score_key": "-1",
+        "text": "Bad (-1)",
+        "cls": "bad"
+      },
+      {
+        "scenario": "hexagon_1",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "hexagon_3",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "pamd_akm_0",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "pamd_akm_4",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "pamd_akm_6",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "pamd_akm_7",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "tiros",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      }
+    ],
+    "Jan-v2-VL-High": [
+      {
+        "scenario": "the-corona-story",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "declaration-of-independence",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "formulas-of-sputnik-1",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "formulas-of-sputnik-2",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "hexagon_1",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "hexagon_3",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "pamd_akm_0",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "pamd_akm_4",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "pamd_akm_6",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "pamd_akm_7",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "tiros",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      }
+    ],
+    "MiniCPM-o-4.5-Vision-GGUF": [
+      {
+        "scenario": "the-corona-story",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "declaration-of-independence",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "formulas-of-sputnik-1",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "formulas-of-sputnik-2",
+        "score_key": "-1",
+        "text": "Bad (-1)",
+        "cls": "bad"
+      },
+      {
+        "scenario": "hexagon_1",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "hexagon_3",
+        "score_key": "-1",
+        "text": "Bad (-1)",
+        "cls": "bad"
+      },
+      {
+        "scenario": "pamd_akm_0",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "pamd_akm_4",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "pamd_akm_6",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "pamd_akm_7",
+        "score_key": "-1",
+        "text": "Bad (-1)",
+        "cls": "bad"
+      },
+      {
+        "scenario": "tiros",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      }
+    ],
+    "Ministral-3-3B-Instruct-2512-GGUF": [
+      {
+        "scenario": "the-corona-story",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "declaration-of-independence",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "formulas-of-sputnik-1",
+        "score_key": "-1",
+        "text": "Bad (-1)",
+        "cls": "bad"
+      },
+      {
+        "scenario": "formulas-of-sputnik-2",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "hexagon_1",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "hexagon_3",
+        "score_key": "-1",
+        "text": "Bad (-1)",
+        "cls": "bad"
+      },
+      {
+        "scenario": "pamd_akm_0",
+        "score_key": "-1",
+        "text": "Bad (-1)",
+        "cls": "bad"
+      },
+      {
+        "scenario": "pamd_akm_4",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "pamd_akm_6",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "pamd_akm_7",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "tiros",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      }
+    ],
+    "Nanonets-OCR": [
+      {
+        "scenario": "the-corona-story",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "declaration-of-independence",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "formulas-of-sputnik-1",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "formulas-of-sputnik-2",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "hexagon_1",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "hexagon_3",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "pamd_akm_0",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "pamd_akm_4",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "pamd_akm_6",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "pamd_akm_7",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "tiros",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      }
+    ],
+    "NextOCR": [
+      {
+        "scenario": "the-corona-story",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "declaration-of-independence",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "formulas-of-sputnik-1",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "formulas-of-sputnik-2",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "hexagon_1",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "hexagon_3",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "pamd_akm_0",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "pamd_akm_4",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "pamd_akm_6",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "pamd_akm_7",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "tiros",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      }
+    ],
+    "OvisOCR2": [
+      {
+        "scenario": "the-corona-story",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "declaration-of-independence",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "formulas-of-sputnik-1",
+        "score_key": "-1",
+        "text": "Bad (-1)",
+        "cls": "bad"
+      },
+      {
+        "scenario": "formulas-of-sputnik-2",
+        "score_key": "-1",
+        "text": "Bad (-1)",
+        "cls": "bad"
+      },
+      {
+        "scenario": "hexagon_1",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "hexagon_3",
+        "score_key": "-1",
+        "text": "Bad (-1)",
+        "cls": "bad"
+      },
+      {
+        "scenario": "pamd_akm_0",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "pamd_akm_4",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "pamd_akm_6",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "pamd_akm_7",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "tiros",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      }
+    ],
+    "Qwen2.5-Omni-3B-GGUF": [
+      {
+        "scenario": "the-corona-story",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "declaration-of-independence",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "formulas-of-sputnik-1",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "formulas-of-sputnik-2",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "hexagon_1",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "hexagon_3",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "pamd_akm_0",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "pamd_akm_4",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "pamd_akm_6",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "pamd_akm_7",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "tiros",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      }
+    ],
+    "Qwen2.5-VL-3B-Instruct-GGUF": [
+      {
+        "scenario": "the-corona-story",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "declaration-of-independence",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "formulas-of-sputnik-1",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "formulas-of-sputnik-2",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "hexagon_1",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "hexagon_3",
+        "score_key": "-1",
+        "text": "Bad (-1)",
+        "cls": "bad"
+      },
+      {
+        "scenario": "pamd_akm_0",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "pamd_akm_4",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "pamd_akm_6",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "pamd_akm_7",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "tiros",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      }
+    ],
+    "Qwen3-VL-4B-Instruct-GGUF": [
+      {
+        "scenario": "the-corona-story",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "declaration-of-independence",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "formulas-of-sputnik-1",
+        "score_key": "-1",
+        "text": "Bad (-1)",
+        "cls": "bad"
+      },
+      {
+        "scenario": "formulas-of-sputnik-2",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "hexagon_1",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "hexagon_3",
+        "score_key": "-1",
+        "text": "Bad (-1)",
+        "cls": "bad"
+      },
+      {
+        "scenario": "pamd_akm_0",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "pamd_akm_4",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "pamd_akm_6",
+        "score_key": "-1",
+        "text": "Bad (-1)",
+        "cls": "bad"
+      },
+      {
+        "scenario": "pamd_akm_7",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "tiros",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      }
+    ],
+    "Qwen3-VL-8B-Instruct-GGUF": [
+      {
+        "scenario": "the-corona-story",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "declaration-of-independence",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "formulas-of-sputnik-1",
+        "score_key": "-1",
+        "text": "Bad (-1)",
+        "cls": "bad"
+      },
+      {
+        "scenario": "formulas-of-sputnik-2",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "hexagon_1",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "hexagon_3",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "pamd_akm_0",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "pamd_akm_4",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "pamd_akm_6",
+        "score_key": "-1",
+        "text": "Bad (-1)",
+        "cls": "bad"
+      },
+      {
+        "scenario": "pamd_akm_7",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "tiros",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      }
+    ],
+    "Qwen3.5-0.8B-GGUF": [
+      {
+        "scenario": "the-corona-story",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "declaration-of-independence",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "formulas-of-sputnik-1",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "formulas-of-sputnik-2",
+        "score_key": "-1",
+        "text": "Bad (-1)",
+        "cls": "bad"
+      },
+      {
+        "scenario": "hexagon_1",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "hexagon_3",
+        "score_key": "-1",
+        "text": "Bad (-1)",
+        "cls": "bad"
+      },
+      {
+        "scenario": "pamd_akm_0",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "pamd_akm_4",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "pamd_akm_6",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "pamd_akm_7",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "tiros",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      }
+    ],
+    "Qwen3.5-2B-GGUF": [
+      {
+        "scenario": "the-corona-story",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "declaration-of-independence",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "formulas-of-sputnik-1",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "formulas-of-sputnik-2",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "hexagon_1",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "hexagon_3",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "pamd_akm_0",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "pamd_akm_4",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "pamd_akm_6",
+        "score_key": "-1",
+        "text": "Bad (-1)",
+        "cls": "bad"
+      },
+      {
+        "scenario": "pamd_akm_7",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "tiros",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      }
+    ],
+    "Qwen3.5-4B-GGUF": [
+      {
+        "scenario": "the-corona-story",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "declaration-of-independence",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "formulas-of-sputnik-1",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "formulas-of-sputnik-2",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "hexagon_1",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "hexagon_3",
+        "score_key": "-1",
+        "text": "Bad (-1)",
+        "cls": "bad"
+      },
+      {
+        "scenario": "pamd_akm_0",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "pamd_akm_4",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "pamd_akm_6",
+        "score_key": "-1",
+        "text": "Bad (-1)",
+        "cls": "bad"
+      },
+      {
+        "scenario": "pamd_akm_7",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "tiros",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      }
+    ],
+    "Qwen3.5-4B-MTP-GGUF": [
+      {
+        "scenario": "the-corona-story",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "declaration-of-independence",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "formulas-of-sputnik-1",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "formulas-of-sputnik-2",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "hexagon_1",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "hexagon_3",
+        "score_key": "-1",
+        "text": "Bad (-1)",
+        "cls": "bad"
+      },
+      {
+        "scenario": "pamd_akm_0",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "pamd_akm_4",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "pamd_akm_6",
+        "score_key": "-1",
+        "text": "Bad (-1)",
+        "cls": "bad"
+      },
+      {
+        "scenario": "pamd_akm_7",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "tiros",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      }
+    ],
+    "Qwen3.5-9B-GGUF": [
+      {
+        "scenario": "the-corona-story",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "declaration-of-independence",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "formulas-of-sputnik-1",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "formulas-of-sputnik-2",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "hexagon_1",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "hexagon_3",
+        "score_key": "-1",
+        "text": "Bad (-1)",
+        "cls": "bad"
+      },
+      {
+        "scenario": "pamd_akm_0",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "pamd_akm_4",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "pamd_akm_6",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "pamd_akm_7",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "tiros",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      }
+    ],
+    "Qwythos-9Bv2": [
+      {
+        "scenario": "the-corona-story",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "declaration-of-independence",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "formulas-of-sputnik-1",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "formulas-of-sputnik-2",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "hexagon_1",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "hexagon_3",
+        "score_key": "-1",
+        "text": "Bad (-1)",
+        "cls": "bad"
+      },
+      {
+        "scenario": "pamd_akm_0",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "pamd_akm_4",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "pamd_akm_6",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "pamd_akm_7",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "tiros",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      }
+    ],
+    "Unlimited-OCR": [
+      {
+        "scenario": "the-corona-story",
+        "score_key": "-1",
+        "text": "Bad (-1)",
+        "cls": "bad"
+      },
+      {
+        "scenario": "declaration-of-independence",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "formulas-of-sputnik-1",
+        "score_key": "-1",
+        "text": "Bad (-1)",
+        "cls": "bad"
+      },
+      {
+        "scenario": "formulas-of-sputnik-2",
+        "score_key": "-1",
+        "text": "Bad (-1)",
+        "cls": "bad"
+      },
+      {
+        "scenario": "hexagon_1",
+        "score_key": "-1",
+        "text": "Bad (-1)",
+        "cls": "bad"
+      },
+      {
+        "scenario": "hexagon_3",
+        "score_key": "-1",
+        "text": "Bad (-1)",
+        "cls": "bad"
+      },
+      {
+        "scenario": "pamd_akm_0",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "pamd_akm_4",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "pamd_akm_6",
+        "score_key": "-1",
+        "text": "Bad (-1)",
+        "cls": "bad"
+      },
+      {
+        "scenario": "pamd_akm_7",
+        "score_key": "-1",
+        "text": "Bad (-1)",
+        "cls": "bad"
+      },
+      {
+        "scenario": "tiros",
+        "score_key": "-1",
+        "text": "Bad (-1)",
+        "cls": "bad"
+      }
+    ],
+    "XCurOS-OCR": [
+      {
+        "scenario": "the-corona-story",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "declaration-of-independence",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "formulas-of-sputnik-1",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "formulas-of-sputnik-2",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "hexagon_1",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "hexagon_3",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "pamd_akm_0",
+        "score_key": "1",
+        "text": "Good (+1)",
+        "cls": "good"
+      },
+      {
+        "scenario": "pamd_akm_4",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "pamd_akm_6",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "pamd_akm_7",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "tiros",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      }
+    ],
+    "olmOCR2": [
+      {
+        "scenario": "the-corona-story",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "declaration-of-independence",
+        "score_key": "-2",
+        "text": "Fail (-2)",
+        "cls": "fail"
+      },
+      {
+        "scenario": "formulas-of-sputnik-1",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "formulas-of-sputnik-2",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "hexagon_1",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "hexagon_3",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "pamd_akm_0",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "pamd_akm_4",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "pamd_akm_6",
+        "score_key": "-1",
+        "text": "Bad (-1)",
+        "cls": "bad"
+      },
+      {
+        "scenario": "pamd_akm_7",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      },
+      {
+        "scenario": "tiros",
+        "score_key": "2",
+        "text": "Winning (+2)",
+        "cls": "winning"
+      }
+    ]
+  },
+  "matrix_table": [
+    {
+      "scenario": "the-corona-story",
+      "ATH-MaaS_OvisOCR2": "Winning (+2)",
+      "Deepseek-OCR2": "Bad (-1)",
+      "English-Document-OCR": "Winning (+2)",
+      "GLM-OCR": "Winning (+2)",
+      "Gemma-3-4b-it-GGUF": "Winning (+2)",
+      "Gemma-4-12B-it-GGUF": "Fail (-2)",
+      "Gemma-4-E2B-it-GGUF": "Winning (+2)",
+      "Gemma-4-E4B-it-GGUF": "Winning (+2)",
+      "Jan-v2-VL-High": "Winning (+2)",
+      "MiniCPM-o-4.5-Vision-GGUF": "Winning (+2)",
+      "Ministral-3-3B-Instruct-2512-GGUF": "Winning (+2)",
+      "Nanonets-OCR": "Winning (+2)",
+      "NextOCR": "Winning (+2)",
+      "OvisOCR2": "Winning (+2)",
+      "Qwen2.5-Omni-3B-GGUF": "Good (+1)",
+      "Qwen2.5-VL-3B-Instruct-GGUF": "Winning (+2)",
+      "Qwen3-VL-4B-Instruct-GGUF": "Winning (+2)",
+      "Qwen3-VL-8B-Instruct-GGUF": "Winning (+2)",
+      "Qwen3.5-0.8B-GGUF": "Winning (+2)",
+      "Qwen3.5-2B-GGUF": "Winning (+2)",
+      "Qwen3.5-4B-GGUF": "Winning (+2)",
+      "Qwen3.5-4B-MTP-GGUF": "Winning (+2)",
+      "Qwen3.5-9B-GGUF": "Winning (+2)",
+      "Qwythos-9Bv2": "Winning (+2)",
+      "Unlimited-OCR": "Bad (-1)",
+      "XCurOS-OCR": "Winning (+2)",
+      "olmOCR2": "Winning (+2)",
+      "summary": "24/27 pass, 3 fail (89% of all models)"
+    },
+    {
+      "scenario": "declaration-of-independence",
+      "ATH-MaaS_OvisOCR2": "Winning (+2)",
+      "Deepseek-OCR2": "Fail (-2)",
+      "English-Document-OCR": "Fail (-2)",
+      "GLM-OCR": "Fail (-2)",
+      "Gemma-3-4b-it-GGUF": "Fail (-2)",
+      "Gemma-4-12B-it-GGUF": "Fail (-2)",
+      "Gemma-4-E2B-it-GGUF": "Fail (-2)",
+      "Gemma-4-E4B-it-GGUF": "Fail (-2)",
+      "Jan-v2-VL-High": "Fail (-2)",
+      "MiniCPM-o-4.5-Vision-GGUF": "Winning (+2)",
+      "Ministral-3-3B-Instruct-2512-GGUF": "Fail (-2)",
+      "Nanonets-OCR": "Fail (-2)",
+      "NextOCR": "Fail (-2)",
+      "OvisOCR2": "Fail (-2)",
+      "Qwen2.5-Omni-3B-GGUF": "Fail (-2)",
+      "Qwen2.5-VL-3B-Instruct-GGUF": "Fail (-2)",
+      "Qwen3-VL-4B-Instruct-GGUF": "Fail (-2)",
+      "Qwen3-VL-8B-Instruct-GGUF": "Fail (-2)",
+      "Qwen3.5-0.8B-GGUF": "Fail (-2)",
+      "Qwen3.5-2B-GGUF": "Fail (-2)",
+      "Qwen3.5-4B-GGUF": "Fail (-2)",
+      "Qwen3.5-4B-MTP-GGUF": "Fail (-2)",
+      "Qwen3.5-9B-GGUF": "Fail (-2)",
+      "Qwythos-9Bv2": "Fail (-2)",
+      "Unlimited-OCR": "Fail (-2)",
+      "XCurOS-OCR": "Fail (-2)",
+      "olmOCR2": "Fail (-2)",
+      "summary": "2/27 pass, 25 fail (7% of all models)"
+    },
+    {
+      "scenario": "formulas-of-sputnik-1",
+      "ATH-MaaS_OvisOCR2": "Good (+1)",
+      "Deepseek-OCR2": "Fail (-2)",
+      "English-Document-OCR": "Fail (-2)",
+      "GLM-OCR": "Good (+1)",
+      "Gemma-3-4b-it-GGUF": "Winning (+2)",
+      "Gemma-4-12B-it-GGUF": "Fail (-2)",
+      "Gemma-4-E2B-it-GGUF": "Bad (-1)",
+      "Gemma-4-E4B-it-GGUF": "Bad (-1)",
+      "Jan-v2-VL-High": "Fail (-2)",
+      "MiniCPM-o-4.5-Vision-GGUF": "Winning (+2)",
+      "Ministral-3-3B-Instruct-2512-GGUF": "Bad (-1)",
+      "Nanonets-OCR": "Winning (+2)",
+      "NextOCR": "Good (+1)",
+      "OvisOCR2": "Bad (-1)",
+      "Qwen2.5-Omni-3B-GGUF": "Fail (-2)",
+      "Qwen2.5-VL-3B-Instruct-GGUF": "Fail (-2)",
+      "Qwen3-VL-4B-Instruct-GGUF": "Bad (-1)",
+      "Qwen3-VL-8B-Instruct-GGUF": "Bad (-1)",
+      "Qwen3.5-0.8B-GGUF": "Fail (-2)",
+      "Qwen3.5-2B-GGUF": "Fail (-2)",
+      "Qwen3.5-4B-GGUF": "Fail (-2)",
+      "Qwen3.5-4B-MTP-GGUF": "Fail (-2)",
+      "Qwen3.5-9B-GGUF": "Fail (-2)",
+      "Qwythos-9Bv2": "Winning (+2)",
+      "Unlimited-OCR": "Bad (-1)",
+      "XCurOS-OCR": "Good (+1)",
+      "olmOCR2": "Winning (+2)",
+      "summary": "9/27 pass, 18 fail (33% of all models)"
+    },
+    {
+      "scenario": "formulas-of-sputnik-2",
+      "ATH-MaaS_OvisOCR2": "Bad (-1)",
+      "Deepseek-OCR2": "Fail (-2)",
+      "English-Document-OCR": "Bad (-1)",
+      "GLM-OCR": "Bad (-1)",
+      "Gemma-3-4b-it-GGUF": "Bad (-1)",
+      "Gemma-4-12B-it-GGUF": "Fail (-2)",
+      "Gemma-4-E2B-it-GGUF": "Bad (-1)",
+      "Gemma-4-E4B-it-GGUF": "Bad (-1)",
+      "Jan-v2-VL-High": "Fail (-2)",
+      "MiniCPM-o-4.5-Vision-GGUF": "Bad (-1)",
+      "Ministral-3-3B-Instruct-2512-GGUF": "Winning (+2)",
+      "Nanonets-OCR": "Winning (+2)",
+      "NextOCR": "Winning (+2)",
+      "OvisOCR2": "Bad (-1)",
+      "Qwen2.5-Omni-3B-GGUF": "Winning (+2)",
+      "Qwen2.5-VL-3B-Instruct-GGUF": "Fail (-2)",
+      "Qwen3-VL-4B-Instruct-GGUF": "Good (+1)",
+      "Qwen3-VL-8B-Instruct-GGUF": "Winning (+2)",
+      "Qwen3.5-0.8B-GGUF": "Bad (-1)",
+      "Qwen3.5-2B-GGUF": "Fail (-2)",
+      "Qwen3.5-4B-GGUF": "Fail (-2)",
+      "Qwen3.5-4B-MTP-GGUF": "Fail (-2)",
+      "Qwen3.5-9B-GGUF": "Winning (+2)",
+      "Qwythos-9Bv2": "Winning (+2)",
+      "Unlimited-OCR": "Bad (-1)",
+      "XCurOS-OCR": "Good (+1)",
+      "olmOCR2": "Winning (+2)",
+      "summary": "10/27 pass, 17 fail (37% of all models)"
+    },
+    {
+      "scenario": "hexagon_1",
+      "ATH-MaaS_OvisOCR2": "Good (+1)",
+      "Deepseek-OCR2": "Bad (-1)",
+      "English-Document-OCR": "Good (+1)",
+      "GLM-OCR": "Good (+1)",
+      "Gemma-3-4b-it-GGUF": "Good (+1)",
+      "Gemma-4-12B-it-GGUF": "Fail (-2)",
+      "Gemma-4-E2B-it-GGUF": "Good (+1)",
+      "Gemma-4-E4B-it-GGUF": "Winning (+2)",
+      "Jan-v2-VL-High": "Winning (+2)",
+      "MiniCPM-o-4.5-Vision-GGUF": "Winning (+2)",
+      "Ministral-3-3B-Instruct-2512-GGUF": "Good (+1)",
+      "Nanonets-OCR": "Winning (+2)",
+      "NextOCR": "Winning (+2)",
+      "OvisOCR2": "Good (+1)",
+      "Qwen2.5-Omni-3B-GGUF": "Winning (+2)",
+      "Qwen2.5-VL-3B-Instruct-GGUF": "Winning (+2)",
+      "Qwen3-VL-4B-Instruct-GGUF": "Winning (+2)",
+      "Qwen3-VL-8B-Instruct-GGUF": "Winning (+2)",
+      "Qwen3.5-0.8B-GGUF": "Winning (+2)",
+      "Qwen3.5-2B-GGUF": "Fail (-2)",
+      "Qwen3.5-4B-GGUF": "Good (+1)",
+      "Qwen3.5-4B-MTP-GGUF": "Good (+1)",
+      "Qwen3.5-9B-GGUF": "Winning (+2)",
+      "Qwythos-9Bv2": "Good (+1)",
+      "Unlimited-OCR": "Bad (-1)",
+      "XCurOS-OCR": "Good (+1)",
+      "olmOCR2": "Winning (+2)",
+      "summary": "23/27 pass, 4 fail (85% of all models)"
+    },
+    {
+      "scenario": "hexagon_3",
+      "ATH-MaaS_OvisOCR2": "Bad (-1)",
+      "Deepseek-OCR2": "Bad (-1)",
+      "English-Document-OCR": "Bad (-1)",
+      "GLM-OCR": "Winning (+2)",
+      "Gemma-3-4b-it-GGUF": "Bad (-1)",
+      "Gemma-4-12B-it-GGUF": "Fail (-2)",
+      "Gemma-4-E2B-it-GGUF": "Bad (-1)",
+      "Gemma-4-E4B-it-GGUF": "Winning (+2)",
+      "Jan-v2-VL-High": "Winning (+2)",
+      "MiniCPM-o-4.5-Vision-GGUF": "Bad (-1)",
+      "Ministral-3-3B-Instruct-2512-GGUF": "Bad (-1)",
+      "Nanonets-OCR": "Winning (+2)",
+      "NextOCR": "Winning (+2)",
+      "OvisOCR2": "Bad (-1)",
+      "Qwen2.5-Omni-3B-GGUF": "Winning (+2)",
+      "Qwen2.5-VL-3B-Instruct-GGUF": "Bad (-1)",
+      "Qwen3-VL-4B-Instruct-GGUF": "Bad (-1)",
+      "Qwen3-VL-8B-Instruct-GGUF": "Winning (+2)",
+      "Qwen3.5-0.8B-GGUF": "Bad (-1)",
+      "Qwen3.5-2B-GGUF": "Winning (+2)",
+      "Qwen3.5-4B-GGUF": "Bad (-1)",
+      "Qwen3.5-4B-MTP-GGUF": "Bad (-1)",
+      "Qwen3.5-9B-GGUF": "Bad (-1)",
+      "Qwythos-9Bv2": "Bad (-1)",
+      "Unlimited-OCR": "Bad (-1)",
+      "XCurOS-OCR": "Winning (+2)",
+      "olmOCR2": "Winning (+2)",
+      "summary": "10/27 pass, 17 fail (37% of all models)"
+    },
+    {
+      "scenario": "pamd_akm_0",
+      "ATH-MaaS_OvisOCR2": "Winning (+2)",
+      "Deepseek-OCR2": "Good (+1)",
+      "English-Document-OCR": "Winning (+2)",
+      "GLM-OCR": "Good (+1)",
+      "Gemma-3-4b-it-GGUF": "Winning (+2)",
+      "Gemma-4-12B-it-GGUF": "Winning (+2)",
+      "Gemma-4-E2B-it-GGUF": "Winning (+2)",
+      "Gemma-4-E4B-it-GGUF": "Winning (+2)",
+      "Jan-v2-VL-High": "Winning (+2)",
+      "MiniCPM-o-4.5-Vision-GGUF": "Winning (+2)",
+      "Ministral-3-3B-Instruct-2512-GGUF": "Bad (-1)",
+      "Nanonets-OCR": "Winning (+2)",
+      "NextOCR": "Winning (+2)",
+      "OvisOCR2": "Winning (+2)",
+      "Qwen2.5-Omni-3B-GGUF": "Winning (+2)",
+      "Qwen2.5-VL-3B-Instruct-GGUF": "Good (+1)",
+      "Qwen3-VL-4B-Instruct-GGUF": "Winning (+2)",
+      "Qwen3-VL-8B-Instruct-GGUF": "Winning (+2)",
+      "Qwen3.5-0.8B-GGUF": "Winning (+2)",
+      "Qwen3.5-2B-GGUF": "Winning (+2)",
+      "Qwen3.5-4B-GGUF": "Winning (+2)",
+      "Qwen3.5-4B-MTP-GGUF": "Winning (+2)",
+      "Qwen3.5-9B-GGUF": "Winning (+2)",
+      "Qwythos-9Bv2": "Good (+1)",
+      "Unlimited-OCR": "Good (+1)",
+      "XCurOS-OCR": "Good (+1)",
+      "olmOCR2": "Winning (+2)",
+      "summary": "26/27 pass, 1 fail (96% of all models)"
+    },
+    {
+      "scenario": "pamd_akm_4",
+      "ATH-MaaS_OvisOCR2": "Winning (+2)",
+      "Deepseek-OCR2": "Fail (-2)",
+      "English-Document-OCR": "Winning (+2)",
+      "GLM-OCR": "Winning (+2)",
+      "Gemma-3-4b-it-GGUF": "Fail (-2)",
+      "Gemma-4-12B-it-GGUF": "Fail (-2)",
+      "Gemma-4-E2B-it-GGUF": "Fail (-2)",
+      "Gemma-4-E4B-it-GGUF": "Winning (+2)",
+      "Jan-v2-VL-High": "Fail (-2)",
+      "MiniCPM-o-4.5-Vision-GGUF": "Winning (+2)",
+      "Ministral-3-3B-Instruct-2512-GGUF": "Good (+1)",
+      "Nanonets-OCR": "Winning (+2)",
+      "NextOCR": "Winning (+2)",
+      "OvisOCR2": "Winning (+2)",
+      "Qwen2.5-Omni-3B-GGUF": "Good (+1)",
+      "Qwen2.5-VL-3B-Instruct-GGUF": "Winning (+2)",
+      "Qwen3-VL-4B-Instruct-GGUF": "Winning (+2)",
+      "Qwen3-VL-8B-Instruct-GGUF": "Winning (+2)",
+      "Qwen3.5-0.8B-GGUF": "Winning (+2)",
+      "Qwen3.5-2B-GGUF": "Winning (+2)",
+      "Qwen3.5-4B-GGUF": "Fail (-2)",
+      "Qwen3.5-4B-MTP-GGUF": "Winning (+2)",
+      "Qwen3.5-9B-GGUF": "Fail (-2)",
+      "Qwythos-9Bv2": "Winning (+2)",
+      "Unlimited-OCR": "Good (+1)",
+      "XCurOS-OCR": "Winning (+2)",
+      "olmOCR2": "Winning (+2)",
+      "summary": "20/27 pass, 7 fail (74% of all models)"
+    },
+    {
+      "scenario": "pamd_akm_6",
+      "ATH-MaaS_OvisOCR2": "Winning (+2)",
+      "Deepseek-OCR2": "Fail (-2)",
+      "English-Document-OCR": "Winning (+2)",
+      "GLM-OCR": "Winning (+2)",
+      "Gemma-3-4b-it-GGUF": "Winning (+2)",
+      "Gemma-4-12B-it-GGUF": "Winning (+2)",
+      "Gemma-4-E2B-it-GGUF": "Bad (-1)",
+      "Gemma-4-E4B-it-GGUF": "Winning (+2)",
+      "Jan-v2-VL-High": "Winning (+2)",
+      "MiniCPM-o-4.5-Vision-GGUF": "Winning (+2)",
+      "Ministral-3-3B-Instruct-2512-GGUF": "Winning (+2)",
+      "Nanonets-OCR": "Winning (+2)",
+      "NextOCR": "Winning (+2)",
+      "OvisOCR2": "Winning (+2)",
+      "Qwen2.5-Omni-3B-GGUF": "Winning (+2)",
+      "Qwen2.5-VL-3B-Instruct-GGUF": "Winning (+2)",
+      "Qwen3-VL-4B-Instruct-GGUF": "Bad (-1)",
+      "Qwen3-VL-8B-Instruct-GGUF": "Bad (-1)",
+      "Qwen3.5-0.8B-GGUF": "Winning (+2)",
+      "Qwen3.5-2B-GGUF": "Bad (-1)",
+      "Qwen3.5-4B-GGUF": "Bad (-1)",
+      "Qwen3.5-4B-MTP-GGUF": "Bad (-1)",
+      "Qwen3.5-9B-GGUF": "Winning (+2)",
+      "Qwythos-9Bv2": "Winning (+2)",
+      "Unlimited-OCR": "Bad (-1)",
+      "XCurOS-OCR": "Winning (+2)",
+      "olmOCR2": "Bad (-1)",
+      "summary": "18/27 pass, 9 fail (67% of all models)"
+    },
+    {
+      "scenario": "pamd_akm_7",
+      "ATH-MaaS_OvisOCR2": "Winning (+2)",
+      "Deepseek-OCR2": "Fail (-2)",
+      "English-Document-OCR": "Winning (+2)",
+      "GLM-OCR": "Winning (+2)",
+      "Gemma-3-4b-it-GGUF": "Winning (+2)",
+      "Gemma-4-12B-it-GGUF": "Fail (-2)",
+      "Gemma-4-E2B-it-GGUF": "Winning (+2)",
+      "Gemma-4-E4B-it-GGUF": "Winning (+2)",
+      "Jan-v2-VL-High": "Winning (+2)",
+      "MiniCPM-o-4.5-Vision-GGUF": "Bad (-1)",
+      "Ministral-3-3B-Instruct-2512-GGUF": "Good (+1)",
+      "Nanonets-OCR": "Winning (+2)",
+      "NextOCR": "Winning (+2)",
+      "OvisOCR2": "Winning (+2)",
+      "Qwen2.5-Omni-3B-GGUF": "Good (+1)",
+      "Qwen2.5-VL-3B-Instruct-GGUF": "Winning (+2)",
+      "Qwen3-VL-4B-Instruct-GGUF": "Good (+1)",
+      "Qwen3-VL-8B-Instruct-GGUF": "Good (+1)",
+      "Qwen3.5-0.8B-GGUF": "Winning (+2)",
+      "Qwen3.5-2B-GGUF": "Fail (-2)",
+      "Qwen3.5-4B-GGUF": "Fail (-2)",
+      "Qwen3.5-4B-MTP-GGUF": "Fail (-2)",
+      "Qwen3.5-9B-GGUF": "Fail (-2)",
+      "Qwythos-9Bv2": "Winning (+2)",
+      "Unlimited-OCR": "Bad (-1)",
+      "XCurOS-OCR": "Winning (+2)",
+      "olmOCR2": "Winning (+2)",
+      "summary": "19/27 pass, 8 fail (70% of all models)"
+    },
+    {
+      "scenario": "tiros",
+      "ATH-MaaS_OvisOCR2": "Winning (+2)",
+      "Deepseek-OCR2": "Fail (-2)",
+      "English-Document-OCR": "Winning (+2)",
+      "GLM-OCR": "Winning (+2)",
+      "Gemma-3-4b-it-GGUF": "Good (+1)",
+      "Gemma-4-12B-it-GGUF": "Winning (+2)",
+      "Gemma-4-E2B-it-GGUF": "Winning (+2)",
+      "Gemma-4-E4B-it-GGUF": "Winning (+2)",
+      "Jan-v2-VL-High": "Winning (+2)",
+      "MiniCPM-o-4.5-Vision-GGUF": "Winning (+2)",
+      "Ministral-3-3B-Instruct-2512-GGUF": "Good (+1)",
+      "Nanonets-OCR": "Winning (+2)",
+      "NextOCR": "Winning (+2)",
+      "OvisOCR2": "Winning (+2)",
+      "Qwen2.5-Omni-3B-GGUF": "Winning (+2)",
+      "Qwen2.5-VL-3B-Instruct-GGUF": "Winning (+2)",
+      "Qwen3-VL-4B-Instruct-GGUF": "Winning (+2)",
+      "Qwen3-VL-8B-Instruct-GGUF": "Winning (+2)",
+      "Qwen3.5-0.8B-GGUF": "Winning (+2)",
+      "Qwen3.5-2B-GGUF": "Winning (+2)",
+      "Qwen3.5-4B-GGUF": "Winning (+2)",
+      "Qwen3.5-4B-MTP-GGUF": "Winning (+2)",
+      "Qwen3.5-9B-GGUF": "Winning (+2)",
+      "Qwythos-9Bv2": "Winning (+2)",
+      "Unlimited-OCR": "Bad (-1)",
+      "XCurOS-OCR": "Winning (+2)",
+      "olmOCR2": "Winning (+2)",
+      "summary": "25/27 pass, 2 fail (93% of all models)"
+    }
+  ]
+}
