@@ -26,7 +26,6 @@ reviewers; the were each asked to update this document.
 | Nemotron-3-Nano        | 21.3 | 64.3, 02:38 | bad | not much commentary |
 | Laguna-S-2.1           | 82.0 | 26.0, 38:13  | good | IQ4-XS reprocessed sub-agent output after 35:01|
 | Step-3.7-Flash         | 92.9 | 16.0, 26:42 | good | IQ4-XS |
-
 | GLM-4.5-Air            | 63.1 | 0 | broken | IQ4-XS, tried both unsloth and bartowski, rocm and vulkan |
 | Ling-3.0-Flash         | 64.0 | 0 | broken | IQ4-XS, needs very recent llama, turn on MTP, still stalls |
 
